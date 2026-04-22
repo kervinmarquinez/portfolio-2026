@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const project = {
   slug: "alfonsolopezabogado",
-  period: "2024",
+  period: "2025",
   title: "Alfonso López Abogado",
   description: "Identidad digital y estrategia web para despacho de abogados especializado.",
 };
