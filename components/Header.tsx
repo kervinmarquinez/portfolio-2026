@@ -42,7 +42,9 @@ export default function Header() {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 px-6 transition-all duration-300 ${
-        scrolled
+        menuOpen
+          ? "bg-paper border-b border-ink/8"
+          : scrolled
           ? "bg-paper/85 backdrop-blur-md border-b border-ink/8 shadow-[0_1px_0_0_rgba(10,10,10,0.06)]"
           : "bg-paper/60 backdrop-blur-sm border-b border-transparent"
       }`}

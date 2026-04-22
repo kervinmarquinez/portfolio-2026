@@ -11,6 +11,10 @@ export default function CustomCursor() {
   const raf = useRef<number>(0);
 
   useEffect(() => {
+    if (!window.matchMedia("(pointer: fine)").matches) {
+      setReducedMotion(true);
+      return;
+    }
     const mq = window.matchMedia("(prefers-reduced-motion: reduce)");
     setReducedMotion(mq.matches);
     const onChange = (e: MediaQueryListEvent) => setReducedMotion(e.matches);
