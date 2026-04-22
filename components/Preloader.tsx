@@ -49,7 +49,7 @@ export default function Preloader() {
       </div>
 
       {/* Text */}
-      <p
+      {/*<p
         className="font-display font-semibold italic text-center leading-tight tracking-tight text-ink
                    text-3xl sm:text-4xl md:text-5xl
                    transition-[opacity,transform] duration-700 ease-[cubic-bezier(0.22,1,0.36,1)]"
@@ -59,7 +59,7 @@ export default function Preloader() {
         }}
       >
         ¡Bienvenido,<br className="hidden sm:block" /> te estaba esperando!
-      </p>
+      </p>*/}
 
       {/* Progress bar */}
       <div className="absolute bottom-10 left-1/2 -translate-x-1/2 w-24 h-px bg-ink/10 overflow-hidden rounded-full">

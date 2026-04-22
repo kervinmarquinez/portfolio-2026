@@ -37,8 +37,7 @@ export default function Hero() {
 
         {/* Description */}
         <p className="animate-fade-up delay-450 font-sans text-base text-ink/60 max-w-sm leading-relaxed mb-10">
-          Ayudo a materializar ideas complejas en interfaces limpias,
-          accesibles y optimizadas.
+          Convierto ideas en productos web que la gente usa, disfruta y recomienda.
         </p>
 
         {/* CTA buttons */}
