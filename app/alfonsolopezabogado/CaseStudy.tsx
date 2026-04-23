@@ -267,6 +267,7 @@ export default function CaseStudy() {
                 muted
                 loop
                 playsInline
+                preload="none"
                 className="w-full h-full object-cover object-top"
               />
             </div>

@@ -19,9 +19,62 @@ const syne = Syne({
 });
 
 export const metadata: Metadata = {
-  title: "Adrián Kervin — Desarrollo Web & Estrategia UX",
+  metadataBase: new URL("https://adriankervin.com"),
+  title: {
+    default: "Adrián Kervin — Desarrollo Web & Estrategia UX",
+    template: "%s — Adrián Kervin",
+  },
   description:
-    "Portfolio de Adrián Kervin. Especialista en Desarrollo Web y Estrategia UX.",
+    "Portfolio de Adrián Kervin. Especialista en Desarrollo Web y Estrategia UX. Convierto ideas en productos web que la gente usa, disfruta y recomienda.",
+  keywords: [
+    "Adrián Kervin",
+    "Desarrollo Web",
+    "Estrategia UX",
+    "Diseño Web",
+    "Frontend",
+    "Portfolio",
+    "Next.js",
+    "React",
+  ],
+  authors: [{ name: "Adrián Kervin", url: "https://adriankervin.com" }],
+  creator: "Adrián Kervin",
+  alternates: {
+    canonical: "https://adriankervin.com",
+  },
+  openGraph: {
+    type: "website",
+    locale: "es_ES",
+    url: "https://adriankervin.com",
+    siteName: "Adrián Kervin",
+    title: "Adrián Kervin — Desarrollo Web & Estrategia UX",
+    description:
+      "Portfolio de Adrián Kervin. Especialista en Desarrollo Web y Estrategia UX. Convierto ideas en productos web que la gente usa, disfruta y recomienda.",
+    images: [
+      {
+        url: "/images/og-image.webp",
+        width: 1200,
+        height: 630,
+        alt: "Adrián Kervin — Desarrollo Web & Estrategia UX",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Adrián Kervin — Desarrollo Web & Estrategia UX",
+    description:
+      "Portfolio de Adrián Kervin. Especialista en Desarrollo Web y Estrategia UX.",
+    images: ["/images/og-image.webp"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
 };
 
 export default function RootLayout({
