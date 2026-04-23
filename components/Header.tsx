@@ -79,7 +79,7 @@ export default function Header() {
               </a>
             ))}
             <a
-              href="/cv.pdf"
+              href="https://drive.google.com/file/d/1oJ5cKOJkVvLDVmvmuiTAHkpvXRwcpGg2/view?usp=drive_link"
               target="_blank"
               rel="noopener noreferrer"
               className="group font-sans text-sm tracking-wide text-ink/70 hover:text-ink transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ink focus-visible:ring-offset-2 rounded-sm"
@@ -132,7 +132,7 @@ export default function Header() {
               </a>
             ))}
             <a
-              href="/cv.pdf"
+              href="https://drive.google.com/file/d/1oJ5cKOJkVvLDVmvmuiTAHkpvXRwcpGg2/view?usp=drive_link"
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => setMenuOpen(false)}

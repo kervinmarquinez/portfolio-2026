@@ -184,7 +184,7 @@ export default function CaseStudy() {
             <div style={reveal(100, s1.visible).style} className={reveal(100, s1.visible).className}>
               {/* Pull quote */}
               <p className="font-display italic text-2xl md:text-3xl text-ink/80 leading-[1.4] mb-8 border-l-2 border-accent/50 pl-6">
-                "El problema no era su reputación como abogado. Era que en internet, esa reputación no existía."
+                "El problema no era su reputación como abogado. Había que potenciar su presencia digital."
               </p>
               <p className="font-sans text-base text-ink/60 leading-[1.85]">
                 Alfonso López llevaba años ejerciendo la abogacía, pero siempre bajo el paraguas de otro despacho.
