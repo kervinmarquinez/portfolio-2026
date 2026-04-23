@@ -3,11 +3,14 @@
 import { useEffect, useState } from "react";
 
 export default function Preloader() {
-  const [mounted, setMounted] = useState(true);
+  const [mounted, setMounted] = useState(false);
   const [closing, setClosing] = useState(false);
   const [textVisible, setTextVisible] = useState(false);
 
   useEffect(() => {
+    if (sessionStorage.getItem("preloader_shown")) return;
+
+    setMounted(true);
     document.documentElement.style.overflow = "hidden";
 
     const textTimer  = setTimeout(() => setTextVisible(true), 400);
@@ -15,6 +18,7 @@ export default function Preloader() {
     const unmount    = setTimeout(() => {
       setMounted(false);
       document.documentElement.style.overflow = "";
+      sessionStorage.setItem("preloader_shown", "1");
     }, 3600);
 
     return () => {
