@@ -4,12 +4,38 @@ import { useState, useRef, useCallback } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-const project = {
-  slug: "alfonsolopezabogado",
-  period: "2025",
-  title: "Alfonso López Abogado",
-  description: "Identidad digital y estrategia web para despacho de abogados especializado.",
+type Project = {
+  slug: string;
+  period: string;
+  title: string;
+  description: string;
+  image: string;
+  imageAlt: string;
+  imagePosition: string;
 };
+
+const projects: Project[] = [
+  {
+    slug: "dailynookcoffee",
+    period: "2026",
+    title: "Daily Nook Coffee",
+    description:
+      "Diseño UX/UI y prototipo de The Nook Grounds, un resort para amantes del café de especialidad entre cafetales colombianos.",
+    image: "/images/daily-nook-coffee-proyecto.webp",
+    imageAlt: "Daily Nook Coffee — mockup del proyecto",
+    imagePosition: "object-center",
+  },
+  {
+    slug: "alfonsolopezabogado",
+    period: "2025",
+    title: "Alfonso López Abogado",
+    description:
+      "Identidad digital y estrategia web para despacho de abogados especializado.",
+    image: "/images/alfonso-lopez-abogado-proyecto.webp",
+    imageAlt: "Alfonso López Abogado — captura del proyecto",
+    imagePosition: "object-top",
+  },
+];
 
 function CornerBrackets({ children }: { children: React.ReactNode }) {
   const corner = "absolute w-3 h-3 border-ink/70";
@@ -24,7 +50,7 @@ function CornerBrackets({ children }: { children: React.ReactNode }) {
   );
 }
 
-export default function Projects() {
+function ProjectCard({ project, index }: { project: Project; index: number }) {
   const [hovered, setHovered] = useState(false);
   const [pos, setPos] = useState({ x: 0, y: 0 });
   const imageRef = useRef<HTMLDivElement>(null);
@@ -42,6 +68,96 @@ export default function Projects() {
     rafRef.current = requestAnimationFrame(() => setPos({ ...rawPos.current }));
   }, []);
 
+  const number = String(index + 1).padStart(2, "0");
+
+  return (
+    <Link
+      href={`/${project.slug}`}
+      aria-label={`Ver proyecto: ${project.title}`}
+      className="group block focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ink focus-visible:ring-offset-4 rounded-sm"
+    >
+      {/* Project index label */}
+      <div className="flex items-center gap-4 mb-5 md:mb-6">
+        <span className="font-sans text-[10px] tracking-[0.25em] text-muted uppercase">
+          {project.period}
+        </span>
+        <div className="flex-1 h-px bg-ink/10" />
+        <span className="font-sans text-[10px] tracking-[0.2em] text-muted tabular-nums">
+          {number}
+        </span>
+      </div>
+
+      {/* Image area */}
+      <div
+        ref={imageRef}
+        onMouseMove={handleMouseMove}
+        onMouseEnter={() => setHovered(true)}
+        onMouseLeave={() => setHovered(false)}
+        className="relative overflow-hidden aspect-[16/9] md:aspect-[2.4/1] bg-ink cursor-none"
+      >
+        <Image
+          src={project.image}
+          alt={project.imageAlt}
+          fill
+          className={`object-cover ${project.imagePosition} group-hover:scale-[1.02] transition-transform duration-700`}
+          sizes="(max-width: 768px) 100vw, 1152px"
+          priority={index === 0}
+        />
+
+        {/* Follower cursor label */}
+        <div
+          aria-hidden
+          className="pointer-events-none absolute top-0 left-0 z-10"
+          style={{
+            transform: `translate(${pos.x}px, ${pos.y}px)`,
+            transition: hovered ? "opacity 0.2s ease" : "opacity 0.15s ease",
+            opacity: hovered ? 1 : 0,
+          }}
+        >
+          <div
+            className="-translate-x-1/2 -translate-y-1/2"
+            style={{
+              transition: "transform 0.08s linear",
+            }}
+          >
+            <CornerBrackets>
+              <span className="font-sans text-xs tracking-[0.18em] text-ink uppercase whitespace-nowrap">
+                Ver proyecto
+              </span>
+            </CornerBrackets>
+          </div>
+        </div>
+
+        {/* Bottom overlay on hover */}
+        <div className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+      </div>
+
+      {/* Project meta */}
+      <div className="mt-6 md:mt-8 grid grid-cols-1 md:grid-cols-[1fr_auto] gap-4 md:gap-8 items-start">
+        <div>
+          <h2 className="font-display font-semibold italic text-3xl md:text-4xl xl:text-5xl text-ink leading-[1.05] tracking-tight mb-3 group-hover:opacity-70 transition-opacity duration-300">
+            {project.title}
+          </h2>
+          <p className="font-sans text-base text-ink/60 leading-relaxed max-w-md">
+            {project.description}
+          </p>
+        </div>
+
+        {/* Arrow */}
+        <div className="hidden md:flex items-center justify-end pt-8">
+          <span
+            aria-hidden="true"
+            className="font-sans text-xs tracking-[0.2em] text-ink/30 uppercase group-hover:text-ink/70 group-hover:translate-x-1 transition-all duration-300"
+          >
+            →
+          </span>
+        </div>
+      </div>
+    </Link>
+  );
+}
+
+export default function Projects() {
   return (
     <section id="proyectos" aria-labelledby="proyectos-heading" className="relative py-24 md:py-36 px-6">
       <div className="max-w-6xl mx-auto">
@@ -53,88 +169,14 @@ export default function Projects() {
             Proyectos
           </span>
           <div className="flex-1 h-px bg-ink/10" />
-          <span className="font-sans text-[10px] tracking-[0.2em] text-muted tabular-nums">
-            01
-          </span>
         </div>
 
-        {/* Project card */}
-        <Link
-          href={`/${project.slug}`}
-          aria-label={`Ver proyecto: ${project.title}`}
-          className="group block focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ink focus-visible:ring-offset-4 rounded-sm"
-        >
-          {/* Image area */}
-          <div
-            ref={imageRef}
-            onMouseMove={handleMouseMove}
-            onMouseEnter={() => setHovered(true)}
-            onMouseLeave={() => setHovered(false)}
-            className="relative overflow-hidden aspect-[16/9] md:aspect-[2.4/1] bg-ink cursor-none"
-          >
-            <Image
-              src="/images/alfonso-lopez-abogado-proyecto.webp"
-              alt="Alfonso López Abogado — captura del proyecto"
-              fill
-              className="object-cover object-top group-hover:scale-[1.02] transition-transform duration-700"
-              sizes="(max-width: 768px) 100vw, 1152px"
-              priority
-            />
-
-            {/* Follower cursor label */}
-            <div
-              aria-hidden
-              className="pointer-events-none absolute top-0 left-0 z-10"
-              style={{
-                transform: `translate(${pos.x}px, ${pos.y}px)`,
-                transition: hovered ? "opacity 0.2s ease" : "opacity 0.15s ease",
-                opacity: hovered ? 1 : 0,
-              }}
-            >
-              <div
-                className="-translate-x-1/2 -translate-y-1/2"
-                style={{
-                  transition: "transform 0.08s linear",
-                }}
-              >
-                <CornerBrackets>
-                  <span className="font-sans text-xs tracking-[0.18em] text-ink uppercase whitespace-nowrap">
-                    Ver proyecto
-                  </span>
-                </CornerBrackets>
-              </div>
-            </div>
-
-            {/* Bottom overlay on hover */}
-            <div className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-          </div>
-
-          {/* Project meta */}
-          <div className="mt-6 md:mt-8 grid grid-cols-1 md:grid-cols-[1fr_auto] gap-4 md:gap-8 items-start">
-            <div>
-              <p className="font-sans text-[10px] tracking-[0.22em] text-muted uppercase mb-3">
-                {project.period}
-              </p>
-              <h2 className="font-display font-semibold italic text-3xl md:text-4xl xl:text-5xl text-ink leading-[1.05] tracking-tight mb-3 group-hover:opacity-70 transition-opacity duration-300">
-                {project.title}
-              </h2>
-              <p className="font-sans text-base text-ink/60 leading-relaxed max-w-md">
-                {project.description}
-              </p>
-            </div>
-
-            {/* Arrow */}
-            <div className="hidden md:flex items-center justify-end pt-12">
-              <span
-                aria-hidden="true"
-                className="font-sans text-xs tracking-[0.2em] text-ink/30 uppercase group-hover:text-ink/70 group-hover:translate-x-1 transition-all duration-300"
-              >
-                →
-              </span>
-            </div>
-          </div>
-        </Link>
-
+        {/* Project list */}
+        <div className="space-y-24 md:space-y-32">
+          {projects.map((project, index) => (
+            <ProjectCard key={project.slug} project={project} index={index} />
+          ))}
+        </div>
       </div>
     </section>
   );

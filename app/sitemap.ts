@@ -9,6 +9,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
     },
     {
+      url: "https://adriankervin.com/dailynookcoffee",
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
       url: "https://adriankervin.com/alfonsolopezabogado",
       lastModified: new Date(),
       changeFrequency: "monthly",

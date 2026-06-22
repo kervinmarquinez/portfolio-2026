@@ -97,7 +97,7 @@ export default function CaseStudy() {
             >
               <span className="font-sans text-[10px] tracking-[0.25em] text-muted uppercase">Caso de Estudio</span>
               <div className="flex-1 h-px bg-ink/10" />
-              <span className="font-sans text-[10px] tracking-[0.2em] text-muted tabular-nums">01</span>
+              <span className="font-sans text-[10px] tracking-[0.2em] text-muted tabular-nums">02</span>
             </div>
 
             {/* Mega title */}
