@@ -1,8 +1,9 @@
 "use client";
 
 import { useState, useRef, useCallback } from "react";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 
 type Project = {
   slug: string;
@@ -14,25 +15,16 @@ type Project = {
   imagePosition: string;
 };
 
-const projects: Project[] = [
+// Structural data (slug / image / crop) lives here; copy comes from messages.
+const projectAssets = [
   {
     slug: "dailynookcoffee",
-    period: "2026",
-    title: "Daily Nook Coffee",
-    description:
-      "Diseño UX/UI y prototipo de The Nook Grounds, un resort para amantes del café de especialidad entre cafetales colombianos.",
     image: "/images/daily-nook-coffee-proyecto.webp",
-    imageAlt: "Daily Nook Coffee — mockup del proyecto",
     imagePosition: "object-center",
   },
   {
     slug: "alfonsolopezabogado",
-    period: "2025",
-    title: "Alfonso López Abogado",
-    description:
-      "Identidad digital y estrategia web para despacho de abogados especializado.",
     image: "/images/alfonso-lopez-abogado-proyecto.webp",
-    imageAlt: "Alfonso López Abogado — captura del proyecto",
     imagePosition: "object-top",
   },
 ];
@@ -51,6 +43,7 @@ function CornerBrackets({ children }: { children: React.ReactNode }) {
 }
 
 function ProjectCard({ project, index }: { project: Project; index: number }) {
+  const t = useTranslations("projects");
   const [hovered, setHovered] = useState(false);
   const [pos, setPos] = useState({ x: 0, y: 0 });
   const imageRef = useRef<HTMLDivElement>(null);
@@ -73,7 +66,7 @@ function ProjectCard({ project, index }: { project: Project; index: number }) {
   return (
     <Link
       href={`/${project.slug}`}
-      aria-label={`Ver proyecto: ${project.title}`}
+      aria-label={t("viewProjectAria", { title: project.title })}
       className="group block focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ink focus-visible:ring-offset-4 rounded-sm"
     >
       {/* Project index label */}
@@ -122,7 +115,7 @@ function ProjectCard({ project, index }: { project: Project; index: number }) {
           >
             <CornerBrackets>
               <span className="font-sans text-xs tracking-[0.18em] text-ink uppercase whitespace-nowrap">
-                Ver proyecto
+                {t("viewProject")}
               </span>
             </CornerBrackets>
           </div>
@@ -158,15 +151,31 @@ function ProjectCard({ project, index }: { project: Project; index: number }) {
 }
 
 export default function Projects() {
+  const t = useTranslations("projects");
+  const items = t.raw("items") as Array<{
+    title: string;
+    period: string;
+    description: string;
+    imageAlt: string;
+  }>;
+
+  const projects: Project[] = projectAssets.map((asset, i) => ({
+    ...asset,
+    title: items[i].title,
+    period: items[i].period,
+    description: items[i].description,
+    imageAlt: items[i].imageAlt,
+  }));
+
   return (
     <section id="proyectos" aria-labelledby="proyectos-heading" className="relative py-24 md:py-36 px-6">
       <div className="max-w-6xl mx-auto">
-        <h2 id="proyectos-heading" className="sr-only">Proyectos</h2>
+        <h2 id="proyectos-heading" className="sr-only">{t("heading")}</h2>
 
         {/* Section label */}
         <div className="flex items-center gap-4 mb-12 md:mb-16">
           <span className="font-sans text-[10px] tracking-[0.25em] text-muted uppercase">
-            Proyectos
+            {t("label")}
           </span>
           <div className="flex-1 h-px bg-ink/10" />
         </div>

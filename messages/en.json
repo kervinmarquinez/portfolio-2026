@@ -1,0 +1,373 @@
+{
+  "metadata": {
+    "home": {
+      "title": "Adrián Kervin — Web Development & UX Strategy",
+      "template": "%s — Adrián Kervin",
+      "description": "Portfolio of Adrián Kervin. Specialist in Web Development and UX Strategy. I turn ideas into web products that people use, enjoy and recommend.",
+      "ogImageAlt": "Adrián Kervin — Web Development & UX Strategy",
+      "twitterDescription": "Portfolio of Adrián Kervin. Specialist in Web Development and UX Strategy."
+    },
+    "dailynook": {
+      "title": "Daily Nook Coffee",
+      "description": "UX/UI case study: Daily Nook Coffee — The Nook Grounds, a resort for specialty coffee lovers set among Colombian coffee estates. Final project of the UX/UI Specialist Course at La Hauss.",
+      "ogDescription": "UX/UI case study: The Nook Grounds, a resort for specialty coffee lovers among Colombian coffee farms. Research, design and prototype in Figma.",
+      "ogImageAlt": "Daily Nook Coffee — UX/UI case study by Adrián Kervin"
+    },
+    "alfonso": {
+      "title": "Alfonso López Abogado",
+      "description": "Case study: digital identity and web strategy for Alfonso López Abogado on the Costa del Sol.",
+      "ogImageAlt": "Alfonso López Abogado — Case study by Adrián Kervin"
+    }
+  },
+  "a11y": {
+    "skipToContent": "Skip to main content"
+  },
+  "header": {
+    "logoTagline": "Web Development · UX Strategy",
+    "logoAria": "Adrián Kervin — Home",
+    "navAria": "Main navigation",
+    "mobileNavAria": "Mobile menu",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "nav": {
+      "projects": "Projects",
+      "experience": "Experience",
+      "about": "About Me"
+    },
+    "cv": "CV",
+    "cta": "Let's talk?",
+    "langAria": "Change language",
+    "langEs": "ES",
+    "langEn": "EN"
+  },
+  "hero": {
+    "avatarAlt": "Animated avatar of Adrián Kervin",
+    "greeting": "Hi, I'm<br></br>Adrián Kervin.",
+    "subtitle": "Specialist in Web Development<brSm></brSm> and UX Strategy.",
+    "description": "I turn ideas into web products that people use, enjoy and recommend.",
+    "ctaProjects": "View Projects",
+    "ctaAbout": "About Me"
+  },
+  "projects": {
+    "label": "Projects",
+    "heading": "Projects",
+    "viewProject": "View project",
+    "viewProjectAria": "View project: {title}",
+    "items": [
+      {
+        "title": "Daily Nook Coffee",
+        "period": "2026",
+        "description": "UX/UI design and prototype for The Nook Grounds, a resort for specialty coffee lovers among Colombian coffee estates.",
+        "imageAlt": "Daily Nook Coffee — project mockup"
+      },
+      {
+        "title": "Alfonso López Abogado",
+        "period": "2025",
+        "description": "Digital identity and web strategy for a specialised law firm.",
+        "imageAlt": "Alfonso López Abogado — project screenshot"
+      }
+    ]
+  },
+  "experience": {
+    "label": "Experience",
+    "heading": "Experience",
+    "items": [
+      {
+        "period": "2023 — 2026",
+        "title": "Web Designer & Developer",
+        "company": "SOMOS.plus",
+        "description": "Web development with WordPress, WooCommerce and React, from standard projects to complex solutions such as the ACET marketplace or the Unicesped.com e-commerce. Direct client management and use of generative AI to speed up workflows and prototyping."
+      },
+      {
+        "period": "2019 — 2022",
+        "title": "Marketing Assistant & Media Buyer",
+        "company": "IDB Mobile Technology",
+        "description": "Managed acquisition campaigns on Google Ads and DSPs with a direct result: doubling annual revenue. Optimised landing pages using UX and SEO principles to improve conversion."
+      },
+      {
+        "period": "2019",
+        "title": "Digital Marketing Assistant",
+        "company": "Rocketfy",
+        "description": "Implemented SEO strategies in WordPress, keyword research and content optimisation to improve visibility in search engines."
+      },
+      {
+        "period": "2017",
+        "title": "Community Manager",
+        "company": "Viveunaexperiencia.com",
+        "description": "Social media management, Facebook and Instagram Ads campaigns and graphic content design to grow the brand's visibility and engagement."
+      }
+    ]
+  },
+  "about": {
+    "label": "About Me",
+    "heading": "About Me",
+    "megaHeading": "A designer who learned<br></br>to code. Or a developer<br></br>who never stopped designing.<br></br>Depends on the day.",
+    "whoAmILabel": "Who I am",
+    "bio1": "I came to development through marketing. In the digital world since 2017 — first strategy, then UX, then code — that path left me with something no repository shows: understanding a product from the business, not just from the screen.",
+    "bio2": "Today I build frontend with WordPress, WooCommerce and React, always with a UX lens. I use AI in my workflow in a practical way — not as a trend, but because it lets me deliver more, better and in less time. If there's a better tool tomorrow, I'll learn it.",
+    "funFactsLabel": "Fun facts",
+    "funFacts": [
+      "Coffee is sacred. Try asking me anything before the first sip.",
+      "I've been playing video games since I was a kid (I slept with my Game Boy).",
+      "CrossFit to disconnect from code. And to keep being able to stare at screens.",
+      "I can seem shy at first. A week later I'm already telling you bad jokes."
+    ],
+    "imagesLabel": "Me in pictures🙂",
+    "imageAlt": "Adrián Kervin",
+    "stack": [
+      {
+        "category": "Technical",
+        "items": ["React", "Next.js", "HTML5 / CSS3 / Javascript", "WordPress / WooCommerce", "Tailwind CSS", "Git / GitHub"]
+      },
+      {
+        "category": "Design",
+        "items": ["Figma", "Adobe Suite", "UX/UI Design", "Prototyping", "Design Systems"]
+      },
+      {
+        "category": "AI & Tools",
+        "items": ["Claude Code", "Claude Design", "AI workflows"]
+      },
+      {
+        "category": "Languages",
+        "items": ["Spanish", "English", "Tagalog"]
+      }
+    ]
+  },
+  "contact": {
+    "label": "Contact",
+    "heading": "Let's talk?",
+    "subline": "Available immediately for a full-time role. Open to freelance projects.",
+    "emailLabel": "Email",
+    "emailAria": "Send an email to hola@adriankervin.com",
+    "phoneLabel": "Phone",
+    "phoneAria": "Call +34 652 18 39 67",
+    "socialsLabel": "Social"
+  },
+  "footer": {
+    "logoAria": "Adrián Kervin — Home",
+    "rights": "All rights reserved © {year}",
+    "backToTop": "Back to top"
+  },
+  "notFound": {
+    "avatarAlt": "Animated 404 error avatar",
+    "title": "Sorry, this part isn't built yet.",
+    "back": "Back to home"
+  },
+  "caseStudy": {
+    "common": {
+      "label": "Case Study",
+      "backShort": "Projects",
+      "backLong": "Back to projects",
+      "projectNavAria": "Project navigation",
+      "projectSheetAria": "Project overview",
+      "mainMockupAria": "Main project mockup",
+      "enlargeImageAria": "Enlarge image: {name}",
+      "enlargedImageAria": "Enlarged image",
+      "closeEnlargedAria": "Close enlarged image"
+    },
+    "dailynook": {
+      "index": "01",
+      "title": "Where specialty coffee<br></br>is lived without rush,<brSm></brSm> among the coffee fields.",
+      "intro": "Daily Nook Coffee · The Nook Grounds — a resort for specialty coffee lovers set in the coffee estates of Colombia.",
+      "meta": [
+        { "label": "Context", "value": "Final project · UX/UI Course (La Hauss)" },
+        { "label": "Year", "value": "2026" },
+        { "label": "Role", "value": "UX/UI · Research · Prototyping" },
+        { "label": "Tools", "value": "Figma" }
+      ],
+      "mainMockupAlt": "Daily Nook Coffee — prototype overview",
+      "concept": {
+        "heading": "The<br></br>Concept",
+        "quote": "The challenge: turning a passion —specialty coffee— into a place to stay and live it.",
+        "p1": "Daily Nook Coffee is my <strong>final project for the UX/UI Specialist Course at La Hauss</strong>. The brief: design the site for a resort meant to be lived in, with tiered stays, a simple booking process and a concept that's clear from the first scroll.",
+        "p2": "I chose to aim it at people for whom coffee doesn't taste like routine, but like ritual. That's how <strong>The Nook Grounds</strong> came about: a century-old Colombian coffee estate reinvented as a <em>slow living</em> sanctuary, built among the coffee fields, where guests don't just stay —they taste, learn and live specialty coffee from start to finish.",
+        "p3": "To meet the brief's requirements I designed the mandatory views —header and footer, home, the tiers category, the stay article and the booking checkout— and delivered them as a navigable prototype in its three versions: mobile, tablet and desktop, without forcing users to register in order to book."
+      },
+      "research": {
+        "heading": "The Research",
+        "intro": "Before designing a single screen, I spent time understanding who I was speaking to and what I was competing against. This phase defined two proto personas, a benchmark of three references and the site map that structures the whole navigation.",
+        "protoPersonasLabel": "Proto personas",
+        "benchmarkLabel": "Benchmark",
+        "siteMapLabel": "Site map",
+        "siteMapAlt": "Daily Nook Coffee — site map",
+        "siteMapEnlargeName": "site map",
+        "personaProfileLabel": "Profile",
+        "personaGoalsLabel": "Goals",
+        "personaFrustrationsLabel": "Frustrations",
+        "benchmarkProLabel": "In favour",
+        "benchmarkConLabel": "To avoid",
+        "personas": [
+          {
+            "name": "Sofía Cortés",
+            "tag": "Marketing Manager · 34 years old · Madrid",
+            "quote": "I don't want coffee to wake up. I want coffee to stop.",
+            "profile": "A perfectionist and an introvert. She values minimalist aesthetics, sustainability and quality over quantity. Her coffee is the only sacred moment of the day.",
+            "goals": "Escape urban noise and hyperconnection, feel cared for without being intruded upon, and enjoy coffee as a pleasure, not as fuel.",
+            "frustrations": "Massive, noisy hotels, strict breakfast schedules and forced tourist activities with crowds."
+          },
+          {
+            "name": "Mateo Gusto",
+            "tag": "Software engineer · 29 years old · Madrid",
+            "quote": "I'm here to understand the science behind the magic.",
+            "profile": "A methodical, self-taught coffee nerd. He perfects his pour-over on weekends and knows roasting theory, but has never set foot on a farm.",
+            "goals": "Validate his knowledge with practice: roast his own coffee, understand the process and talk to the people who grow the bean.",
+            "frustrations": "Superficial tourist tours, poorly extracted coffees that claim to be specialty, and the lack of transparency about the product's origin."
+          }
+        ],
+        "benchmark": [
+          {
+            "number": "01",
+            "name": "Finca Rosa Blanca",
+            "url": "fincarosablanca.com",
+            "pro": "Minimalist, clean design with good use of space. Clearly identifies each tier and its price, uses breadcrumbs and filters, and shows a booking summary.",
+            "con": "The external booking engine breaks visual consistency, the breadcrumbs aren't clickable and the calendar doesn't make the status of each date clear."
+          },
+          {
+            "number": "02",
+            "name": "Aquiares",
+            "url": "aquiares.com",
+            "pro": "A hero that quickly communicates who they are and what they offer, a clean design and the booking status visible at all times. Lets you go back to the previous step.",
+            "con": "Redirects to an external page that breaks the flow, missing breadcrumbs, confusing button hierarchy and no room information."
+          },
+          {
+            "number": "03",
+            "name": "Hacienda Venecia",
+            "url": "haciendavenecia.com",
+            "pro": "A relevant CTA from the start, photos of the stay, modals with information and the main features shown visually.",
+            "con": "A very poor booking form with no booking engine, missing breadcrumbs, mixed languages and booking information that doesn't stay visible."
+          }
+        ]
+      },
+      "design": {
+        "heading": "The Design",
+        "p1": "With the research clear, I built a visual system that breathes the coffee's origin: earth tones and coffee-field green, an editorial typeface with character and warm, handcrafted iconography.",
+        "p2": "The style guide brings together colour, typography and icons. From it I built a component library —navigation, cards, calendar, forms and the service icons— to keep everything consistent from the home to the checkout.",
+        "styleGuideAlt": "Daily Nook Coffee — style guide: colour, typography and icons",
+        "tiersHeading": "The tiers",
+        "tiersIntro": "Three packs that scale with how deep you go into the world of coffee —from absolute silence to mastering the craft—. Each level steps up the accommodation, barista equipment and experiences, and can be booked without registering.",
+        "tierFrom": "from",
+        "tierPerNight": "/ night",
+        "tiers": [
+          {
+            "pack": "Essential Pack",
+            "name": "The Ritual of the Pause",
+            "stay": "The Garden Cabin",
+            "price": "€329.99",
+            "desc": "Absolute disconnection in an intimate adobe cabin: filter coffee you brew yourself (V60) and sensory rituals on your private porch."
+          },
+          {
+            "pack": "Premium Pack",
+            "name": "The Alchemy of Origin",
+            "stay": "The Mill Loft",
+            "price": "€559.99",
+            "desc": "A sensory immersion in a historic loft in the old drying house: espresso machine, micro-lots and guided experiences such as the Origin Tour and the Sunset Cupping."
+          },
+          {
+            "pack": "Master Pack",
+            "name": "The Master's Legacy",
+            "stay": "The Owner's House",
+            "price": "€849.99",
+            "desc": "Total mastery in a suite with fireplace and panoramic terrace: a La Marzocco GS3 machine, the rarest coffees and 100% private experiences, including roasting your own batch."
+          }
+        ],
+        "checkoutHeading": "The checkout",
+        "checkoutIntro": "The booking is resolved in four steps, without forcing users to register and with breadcrumbs present at all times so they always know where they are and can go back. The goal: the fewest possible frictions between desire and booking.",
+        "checkoutStepsNavAria": "Checkout steps",
+        "checkoutSteps": [
+          {
+            "number": "01",
+            "crumb": "Pack and dates",
+            "title": "Pack and dates",
+            "body": "The user sees the selected pack and can change it, choose check-in and check-out dates and the number of guests."
+          },
+          {
+            "number": "02",
+            "crumb": "Extras",
+            "title": "Extras",
+            "body": "Add additional services and experiences to personalise the stay before moving on to payment."
+          },
+          {
+            "number": "03",
+            "crumb": "Payment",
+            "title": "Payment",
+            "body": "Enter the payment details to confirm the booking, with the order summary always in view."
+          },
+          {
+            "number": "04",
+            "crumb": "Confirmation",
+            "title": "Thank you page",
+            "body": "A confirmation page closes the flow and recaps the booking with all its details."
+          }
+        ]
+      },
+      "responsive": {
+        "label": "Responsive prototype · mobile, tablet and desktop",
+        "sectionAria": "Responsive views of the prototype",
+        "devices": [
+          { "alt": "Daily Nook Coffee — mobile view" },
+          { "alt": "Daily Nook Coffee — tablet view" },
+          { "alt": "Daily Nook Coffee — desktop view" }
+        ]
+      },
+      "prototype": {
+        "heading": "A prototype<br></br>for living coffee.",
+        "p1": "The result is a navigable Figma prototype in its three versions —mobile, tablet and desktop—, consistent from the home to the payment.",
+        "p2": "Beyond the screens, this project forced me to think like a product designer: start from real research, justify every decision with the site map and make sure the experience —like a good cup of coffee— is enjoyed without rush. It's the closing piece of the UX/UI Specialist Course at La Hauss and the one that best explains how I work."
+      },
+      "figmaCta": "View prototype in Figma"
+    },
+    "alfonso": {
+      "index": "02",
+      "title": "When starting<br></br>your own firm<brSm></brSm> begins with a<br></br> blank screen.",
+      "meta": [
+        { "label": "Client", "value": "Alfonso López Abogado" },
+        { "label": "Year", "value": "2025" },
+        { "label": "Role", "value": "UI/UX Design · Web Development" },
+        { "label": "Technology", "value": "WordPress" }
+      ],
+      "mainMockupAlt": "Alfonso López Abogado — project overview",
+      "challenge": {
+        "heading": "The Starting<br></br>Point",
+        "quote": "The problem wasn't his reputation as a lawyer. His digital presence needed a boost.",
+        "body": "Alfonso López had practised law for years, but always under another firm's umbrella. No logo, no visual identity, no website and no online presence beyond the clients he had worked with before. His network existed, but in the digital world he was invisible. And on the Costa del Sol, one of the most saturated legal markets in Spain, that's a serious problem."
+      },
+      "strategy": {
+        "heading": "The Strategy:<brSm></brSm> Winning by Design",
+        "intro": "The websites of most lawyers on the Costa del Sol share a pattern: outdated, text-heavy and with a design that hasn't changed in ten years. That, rather than a problem, was our biggest opportunity. The strategy rested on three key decisions:",
+        "items": [
+          {
+            "number": "01",
+            "title": "Identity from scratch",
+            "body": "Before touching the website, we worked together on the logo and the corporate colour palette. He needed an image that conveyed seriousness without feeling cold, and that worked equally well on a business card and on a digital banner."
+          },
+          {
+            "number": "02",
+            "title": "Minimalist, clean design",
+            "body": "Against the visual noise of the competition, we chose a website with plenty of space, clear typography and direct navigation. So that in five seconds the user knew what Alfonso does, how he can help and how to reach him."
+          },
+          {
+            "number": "03",
+            "title": "SEO foundations from day one",
+            "body": "In a competitive market, showing up on Google isn't optional. I structured the content and the code with ranking in mind from the start, and we worked on the first blog articles to begin building authority on relevant searches."
+          }
+        ]
+      },
+      "mockup2": {
+        "sectionAria": "Desktop and mobile mockups",
+        "mobileAlt": "Alfonso López Abogado — mobile view"
+      },
+      "development": {
+        "heading": "The Development",
+        "p1": "We built it in WordPress, with an architecture designed so Alfonso could manage the content on his own without depending on me for every minor change.",
+        "p2": "I implemented clear CTAs at the site's strategic points and a contact form accessible from any page, because in a law firm every enquiry is a potential client.",
+        "p3": "All the code was optimised for load speed and mobile, which is how most people look for a lawyer today. The website wasn't launched and forgotten: we keep working together to improve ranking, add new content and adjust whatever the data calls for."
+      },
+      "result": {
+        "heading": "An identity of his own<br></br>in a saturated market.",
+        "p1": "Alfonso went from not existing online to having a coherent, professional and distinctive digital presence. He has his own brand image, a website he can proudly show any client and a platform that works for him around the clock.",
+        "p2": "What satisfies me most about this project isn't the visual result, but the starting point: building something from scratch alongside someone betting hard on their own path has a different value. Projects like this require me to understand the client's business before touching the design, and that's exactly what I look for in every brief."
+      },
+      "liveCta": "View live project"
+    }
+  }
+}

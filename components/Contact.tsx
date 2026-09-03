@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { useTranslations } from "next-intl";
 
 function useReveal(threshold = 0.12) {
   const ref = useRef<HTMLDivElement>(null);
@@ -28,6 +29,7 @@ const socials = [
 ];
 
 export default function Contact() {
+  const t = useTranslations("contact");
   const { ref, visible } = useReveal(0.1);
 
   const reveal = (delay: number) => ({
@@ -47,7 +49,7 @@ export default function Contact() {
         {/* Section label */}
         <div {...reveal(0)} className={`${reveal(0).className} flex items-center gap-4 mb-12 md:mb-16`} style={reveal(0).style}>
           <span className="font-sans text-[10px] tracking-[0.25em] text-muted uppercase">
-            Contacto
+            {t("label")}
           </span>
           <div className="flex-1 h-px bg-ink/10" />
           <span className="font-sans text-[10px] tracking-[0.2em] text-muted tabular-nums">
@@ -62,7 +64,7 @@ export default function Contact() {
           style={reveal(80).style}
         >
           <h2 id="contacto-heading" className="font-display font-semibold italic text-6xl sm:text-7xl md:text-8xl xl:text-[9rem] text-ink leading-[0.92] tracking-tight">
-            ¿Hablamos?
+            {t("heading")}
           </h2>
         </div>
 
@@ -72,8 +74,7 @@ export default function Contact() {
           className={`${reveal(160).className} font-sans text-base text-ink/60 max-w-xs leading-relaxed mb-20 md:mb-28`}
           style={reveal(160).style}
         >
-          Disponibilidad inmediata para incorporación full-time.
-          Abierto a proyectos freelance.
+          {t("subline")}
         </p>
 
         {/* Divider */}
@@ -94,11 +95,11 @@ export default function Contact() {
           <div className="flex flex-col gap-6">
             <div>
               <p className="font-sans text-[10px] tracking-[0.22em] text-muted uppercase mb-3">
-                Email
+                {t("emailLabel")}
               </p>
               <a
                 href="mailto:hola@adriankervin.com"
-                aria-label="Enviar email a hola@adriankervin.com"
+                aria-label={t("emailAria")}
                 className="group inline-flex items-center gap-2 font-display italic text-2xl md:text-3xl text-ink hover:text-ink/55 transition-colors duration-300 ease-[cubic-bezier(0.32,0.72,0,1)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ink focus-visible:ring-offset-2 rounded-sm"
               >
                 hola@adriankervin.com
@@ -110,11 +111,11 @@ export default function Contact() {
 
             <div>
               <p className="font-sans text-[10px] tracking-[0.22em] text-muted uppercase mb-3">
-                Teléfono
+                {t("phoneLabel")}
               </p>
               <a
                 href="tel:+34652183967"
-                aria-label="Llamar al +34 652 18 39 67"
+                aria-label={t("phoneAria")}
                 className="group inline-flex items-center gap-2 font-display italic text-2xl md:text-3xl text-ink hover:text-ink/55 transition-colors duration-300 ease-[cubic-bezier(0.32,0.72,0,1)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ink focus-visible:ring-offset-2 rounded-sm"
               >
                 +34 652 18 39 67
@@ -125,7 +126,7 @@ export default function Contact() {
           {/* Socials */}
           <div className="flex flex-col gap-3 sm:items-end">
             <p className="font-sans text-[10px] tracking-[0.22em] text-muted uppercase">
-              Redes
+              {t("socialsLabel")}
             </p>
             <div className="flex items-center gap-6">
               {socials.map(({ label, href }) => (

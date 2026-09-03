@@ -1,6 +1,10 @@
+import { useTranslations } from "next-intl";
+import { brTags } from "./richText";
 import { Squiggle } from "./RubberHoseDecor";
 
 export default function Hero() {
+  const t = useTranslations("hero");
+
   return (
     <section className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden pt-20 px-6">
 
@@ -17,7 +21,7 @@ export default function Hero() {
               loop
               muted
               playsInline
-              aria-label="Avatar animado de Adrián Kervin"
+              aria-label={t("avatarAlt")}
               className="w-full h-full object-cover"
             />
           </div>
@@ -25,19 +29,19 @@ export default function Hero() {
 
         {/* H1 */}
         <h1 className="animate-fade-up delay-200 font-display font-semibold italic text-5xl sm:text-6xl md:text-7xl xl:text-8xl leading-[0.95] tracking-tight text-ink mb-5">
-          Hola, soy<br />Adrián&nbsp;Kervin.
+          {t.rich("greeting", brTags)}
         </h1>
 
 
 
         {/* Subtitle */}
         <p className="animate-fade-up delay-300 font-display font-light text-xl sm:text-2xl md:text-3xl text-ink/80 leading-snug mb-6 max-w-xl">
-          Especialista en Desarrollo Web<br className="hidden sm:block" /> y Estrategia UX.
+          {t.rich("subtitle", brTags)}
         </p>
 
         {/* Description */}
         <p className="animate-fade-up delay-450 font-sans text-base text-ink/60 max-w-sm leading-relaxed mb-10">
-          Convierto ideas en productos web que la gente usa, disfruta y recomienda.
+          {t("description")}
         </p>
 
         {/* CTA buttons */}
@@ -46,13 +50,13 @@ export default function Hero() {
             href="#proyectos"
             className="w-full sm:w-auto text-center font-sans font-medium text-xs tracking-widest uppercase bg-ink text-paper px-8 py-4 rounded-full hover:bg-ink/85 transition-colors duration-300 hover:scale-[1.02] active:scale-[0.98] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ink focus-visible:ring-offset-2"
           >
-            Ver Proyectos
+            {t("ctaProjects")}
           </a>
           <a
             href="#sobre-mi"
             className="w-full sm:w-auto text-center font-sans font-medium text-xs tracking-widest uppercase border border-ink/25 text-ink px-8 py-4 rounded-full hover:border-ink/60 hover:bg-ink/5 transition-colors duration-300 hover:scale-[1.02] active:scale-[0.98] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ink focus-visible:ring-offset-2"
           >
-            Sobre Mí
+            {t("ctaAbout")}
           </a>
         </div>
 

@@ -1,0 +1,373 @@
+{
+  "metadata": {
+    "home": {
+      "title": "Adrián Kervin — Desarrollo Web & Estrategia UX",
+      "template": "%s — Adrián Kervin",
+      "description": "Portfolio de Adrián Kervin. Especialista en Desarrollo Web y Estrategia UX. Convierto ideas en productos web que la gente usa, disfruta y recomienda.",
+      "ogImageAlt": "Adrián Kervin — Desarrollo Web & Estrategia UX",
+      "twitterDescription": "Portfolio de Adrián Kervin. Especialista en Desarrollo Web y Estrategia UX."
+    },
+    "dailynook": {
+      "title": "Daily Nook Coffee",
+      "description": "Caso de estudio UX/UI: Daily Nook Coffee — The Nook Grounds, un resort para amantes del café de especialidad ambientado en haciendas colombianas entre cafetales. Proyecto final del Curso Especialista UX/UI en La Hauss.",
+      "ogDescription": "Caso de estudio UX/UI: The Nook Grounds, un resort para amantes del café de especialidad entre cafetales colombianos. Investigación, diseño y prototipo en Figma.",
+      "ogImageAlt": "Daily Nook Coffee — Caso de estudio UX/UI por Adrián Kervin"
+    },
+    "alfonso": {
+      "title": "Alfonso López Abogado",
+      "description": "Caso de estudio: identidad digital y estrategia web para Alfonso López Abogado en la Costa del Sol.",
+      "ogImageAlt": "Alfonso López Abogado — Caso de estudio por Adrián Kervin"
+    }
+  },
+  "a11y": {
+    "skipToContent": "Saltar al contenido principal"
+  },
+  "header": {
+    "logoTagline": "Desarrollo Web · Estrategia UX",
+    "logoAria": "Adrián Kervin — Inicio",
+    "navAria": "Navegación principal",
+    "mobileNavAria": "Menú móvil",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "nav": {
+      "projects": "Proyectos",
+      "experience": "Experiencia",
+      "about": "Sobre Mí"
+    },
+    "cv": "CV",
+    "cta": "¿Hablamos?",
+    "langAria": "Cambiar idioma",
+    "langEs": "ES",
+    "langEn": "EN"
+  },
+  "hero": {
+    "avatarAlt": "Avatar animado de Adrián Kervin",
+    "greeting": "Hola, soy<br></br>Adrián Kervin.",
+    "subtitle": "Especialista en Desarrollo Web<brSm></brSm> y Estrategia UX.",
+    "description": "Convierto ideas en productos web que la gente usa, disfruta y recomienda.",
+    "ctaProjects": "Ver Proyectos",
+    "ctaAbout": "Sobre Mí"
+  },
+  "projects": {
+    "label": "Proyectos",
+    "heading": "Proyectos",
+    "viewProject": "Ver proyecto",
+    "viewProjectAria": "Ver proyecto: {title}",
+    "items": [
+      {
+        "title": "Daily Nook Coffee",
+        "period": "2026",
+        "description": "Diseño UX/UI y prototipo de The Nook Grounds, un resort para amantes del café de especialidad entre cafetales colombianos.",
+        "imageAlt": "Daily Nook Coffee — mockup del proyecto"
+      },
+      {
+        "title": "Alfonso López Abogado",
+        "period": "2025",
+        "description": "Identidad digital y estrategia web para despacho de abogados especializado.",
+        "imageAlt": "Alfonso López Abogado — captura del proyecto"
+      }
+    ]
+  },
+  "experience": {
+    "label": "Experiencia",
+    "heading": "Experiencia",
+    "items": [
+      {
+        "period": "2023 — 2026",
+        "title": "Diseñador y Desarrollador Web",
+        "company": "SOMOS.plus",
+        "description": "Desarrollo web con WordPress, WooCommerce y React, desde proyectos estándar hasta soluciones complejas como el marketplace de la ACET o el e-commerce de Unicesped.com. Gestión directa con clientes y uso de IA generativa para acelerar flujos de trabajo y prototipado."
+      },
+      {
+        "period": "2019 — 2022",
+        "title": "Marketing Assistant & Media Buyer",
+        "company": "IDB Mobile Technology",
+        "description": "Gestión de campañas de captación en Google Ads y DSPs con resultado directo: duplicar la facturación anual. Optimización de landing pages con principios UX y SEO para mejorar la conversión."
+      },
+      {
+        "period": "2019",
+        "title": "Asistente de Marketing Digital",
+        "company": "Rocketfy",
+        "description": "Implementación de estrategias SEO en WordPress, investigación de palabras clave y optimización de contenidos para mejorar la visibilidad en buscadores."
+      },
+      {
+        "period": "2017",
+        "title": "Community Manager",
+        "company": "Viveunaexperiencia.com",
+        "description": "Gestión de redes sociales, campañas en Facebook e Instagram Ads y diseño de contenido gráfico para aumentar la visibilidad y engagement de la marca."
+      }
+    ]
+  },
+  "about": {
+    "label": "Sobre Mí",
+    "heading": "Sobre Mí",
+    "megaHeading": "Diseñador que aprendió<br></br>a programar. O programador<br></br>que no olvidó diseñar.<br></br>Depende del día.",
+    "whoAmILabel": "Quién soy",
+    "bio1": "Llegué al desarrollo por la puerta del marketing. Desde 2017 en el mundo digital — primero estrategia, luego UX, luego código — ese recorrido me dejó algo que no sale en ningún repositorio: entender el producto desde el negocio, no solo desde la pantalla.",
+    "bio2": "Hoy desarrollo frontend con WordPress, WooCommerce y React, siempre desde una mirada UX. Aplico IA en mi flujo de trabajo de forma práctica — no como tendencia, sino porque me permite entregar más, mejor y en menos tiempo. Si mañana hay una herramienta mejor, la aprendo.",
+    "funFactsLabel": "Fun facts",
+    "funFacts": [
+      "El café es sagrado. Intenta pedirme algo antes del primer sorbo.",
+      "Llevo jugando a videojuegos desde que era pequeño (dormía con mi Game Boy).",
+      "CrossFit para desconectar del código. Y para poder seguir mirando pantallas.",
+      "Al principio puedo parecer tímido. A la semana ya te estoy contando chistes malos."
+    ],
+    "imagesLabel": "Yo en imágenes🙂",
+    "imageAlt": "Adrián Kervin",
+    "stack": [
+      {
+        "category": "Técnico",
+        "items": ["React", "Next.js", "HTML5 / CSS3 / Javascript", "WordPress / WooCommerce", "Tailwind CSS", "Git / GitHub"]
+      },
+      {
+        "category": "Diseño",
+        "items": ["Figma", "Adobe Suite", "Diseño UX/UI", "Prototipado", "Design Systems"]
+      },
+      {
+        "category": "IA & Herramientas",
+        "items": ["Claude Code", "Claude Design", "Flujos con IA"]
+      },
+      {
+        "category": "Idiomas",
+        "items": ["Español", "Inglés", "Tagalo"]
+      }
+    ]
+  },
+  "contact": {
+    "label": "Contacto",
+    "heading": "¿Hablamos?",
+    "subline": "Disponibilidad inmediata para incorporación full-time. Abierto a proyectos freelance.",
+    "emailLabel": "Email",
+    "emailAria": "Enviar email a hola@adriankervin.com",
+    "phoneLabel": "Teléfono",
+    "phoneAria": "Llamar al +34 652 18 39 67",
+    "socialsLabel": "Redes"
+  },
+  "footer": {
+    "logoAria": "Adrián Kervin — Inicio",
+    "rights": "Todos los derechos reservados © {year}",
+    "backToTop": "Volver arriba"
+  },
+  "notFound": {
+    "avatarAlt": "Avatar animado de error 404",
+    "title": "Lo siento, esta parte aún no está creada.",
+    "back": "Volver al inicio"
+  },
+  "caseStudy": {
+    "common": {
+      "label": "Caso de Estudio",
+      "backShort": "Proyectos",
+      "backLong": "Volver a proyectos",
+      "projectNavAria": "Navegación del proyecto",
+      "projectSheetAria": "Ficha del proyecto",
+      "mainMockupAria": "Mockup principal del proyecto",
+      "enlargeImageAria": "Ampliar imagen: {name}",
+      "enlargedImageAria": "Imagen ampliada",
+      "closeEnlargedAria": "Cerrar imagen ampliada"
+    },
+    "dailynook": {
+      "index": "01",
+      "title": "Donde el café de especialidad<br></br>se vive sin prisa,<brSm></brSm> entre cafetales.",
+      "intro": "Daily Nook Coffee · The Nook Grounds — un resort para amantes del café de especialidad ambientado en las haciendas cafeteras de Colombia.",
+      "meta": [
+        { "label": "Contexto", "value": "Proyecto final · Curso UX/UI (La Hauss)" },
+        { "label": "Año", "value": "2026" },
+        { "label": "Rol", "value": "UX/UI · Investigación · Prototipado" },
+        { "label": "Herramientas", "value": "Figma" }
+      ],
+      "mainMockupAlt": "Daily Nook Coffee — vista general del prototipo",
+      "concept": {
+        "heading": "El<br></br>Concepto",
+        "quote": "El reto: convertir una pasión —el café de especialidad— en un lugar donde quedarse a vivirla.",
+        "p1": "Daily Nook Coffee es mi <strong>proyecto final del Curso Especialista en UX/UI de La Hauss</strong>. El encargo: diseñar el sitio de un complejo pensado para ser vivido, con estancias por niveles, un proceso de reserva sencillo y un concepto que quede claro desde el primer scroll.",
+        "p2": "Elegí orientarlo a quienes el café no les sabe a rutina, sino a ritual. Así surgió <strong>The Nook Grounds</strong>: una hacienda cafetera centenaria de Colombia reinventada como santuario de <em>slow living</em>, levantada entre cafetales, donde el huésped no solo se aloja —cata, aprende y vive el café de especialidad de principio a fin.",
+        "p3": "Para cumplir con los requisitos del briefing diseñé las vistas obligatorias —cabecera y pie, home, la categoría de tiers, el artículo de la estancia y el checkout de reserva— y las entregué como prototipo navegable en sus tres versiones: móvil, tablet y escritorio, sin obligar al usuario a registrarse para reservar."
+      },
+      "research": {
+        "heading": "La Investigación",
+        "intro": "Antes de diseñar una sola pantalla, dediqué tiempo a entender a quién le hablaba y contra qué competía. Esta fase definió dos proto personas, un benchmark de tres referentes y el mapa de sitio que ordena toda la navegación.",
+        "protoPersonasLabel": "Proto personas",
+        "benchmarkLabel": "Benchmark",
+        "siteMapLabel": "Mapa de sitio",
+        "siteMapAlt": "Daily Nook Coffee — mapa de sitio",
+        "siteMapEnlargeName": "mapa de sitio",
+        "personaProfileLabel": "Perfil",
+        "personaGoalsLabel": "Objetivos",
+        "personaFrustrationsLabel": "Frustraciones",
+        "benchmarkProLabel": "A favor",
+        "benchmarkConLabel": "A evitar",
+        "personas": [
+          {
+            "name": "Sofía Cortés",
+            "tag": "Marketing Manager · 34 años · Madrid",
+            "quote": "No quiero café para despertar. Quiero café para parar.",
+            "profile": "Perfeccionista e introvertida. Valora la estética minimalista, la sostenibilidad y la calidad sobre la cantidad. Su café es el único momento sagrado del día.",
+            "goals": "Escapar del ruido urbano y la hiperconexión, sentirse cuidada sin ser invadida y disfrutar del café como un placer, no como combustible.",
+            "frustrations": "Hoteles masivos y ruidosos, horarios de desayuno estrictos y las actividades turísticas forzadas con aglomeraciones."
+          },
+          {
+            "name": "Mateo Gusto",
+            "tag": "Ingeniero de software · 29 años · Madrid",
+            "quote": "Vengo a entender la ciencia detrás de la magia.",
+            "profile": "Un coffee nerd metódico y autodidacta. Perfecciona su pour-over los fines de semana y conoce la teoría del tueste, pero nunca ha pisado una finca.",
+            "goals": "Validar su conocimiento con la práctica: tostar su propio café, entender el proceso y hablar con quien cultiva el grano.",
+            "frustrations": "Tours turísticos superficiales, cafés mal extraídos que presumen de especialidad y la falta de transparencia sobre el origen del producto."
+          }
+        ],
+        "benchmark": [
+          {
+            "number": "01",
+            "name": "Finca Rosa Blanca",
+            "url": "fincarosablanca.com",
+            "pro": "Diseño minimalista y limpio con buen uso del espacio. Identifica con claridad cada tier y su precio, usa migas de pan y filtros, y muestra un resumen de la reserva.",
+            "con": "El motor de reservas externo rompe la coherencia visual, las migas de pan no son clicables y el calendario no deja claro el estado de cada fecha."
+          },
+          {
+            "number": "02",
+            "name": "Aquiares",
+            "url": "aquiares.com",
+            "pro": "Hero que comunica rápido quiénes son y qué ofrecen, diseño limpio y el estado de la reserva visible en todo momento. Permite volver al paso anterior.",
+            "con": "Redirige a una página externa que rompe el flujo, faltan migas de pan, la jerarquía de botones es confusa y no hay información de las habitaciones."
+          },
+          {
+            "number": "03",
+            "name": "Hacienda Venecia",
+            "url": "haciendavenecia.com",
+            "pro": "CTA relevante desde el inicio, fotos de la estancia, modales con información y las características principales mostradas de forma visual.",
+            "con": "Formulario de reserva muy pobre y sin motor de reservas, faltan migas de pan, mezcla idiomas y la información de la reserva no permanece visible."
+          }
+        ]
+      },
+      "design": {
+        "heading": "El Diseño",
+        "p1": "Con la investigación clara, construí un sistema visual que respira el origen del café: tonos tierra y verde cafetal, una tipografía editorial con carácter y una iconografía cálida y artesanal.",
+        "p2": "La guía de estilos reúne color, tipografía e iconos. A partir de ella monté una librería de componentes —navegación, tarjetas, calendario, formularios y los iconos de servicios— para mantener la coherencia de la home al checkout.",
+        "styleGuideAlt": "Daily Nook Coffee — guía de estilos: color, tipografía e iconos",
+        "tiersHeading": "Los tiers",
+        "tiersIntro": "Tres packs que escalan según la inmersión en el mundo del café —del silencio absoluto al dominio del oficio—. Cada nivel sube de alojamiento, equipo barista y experiencias, y se puede reservar sin necesidad de registrarse.",
+        "tierFrom": "desde",
+        "tierPerNight": "/ noche",
+        "tiers": [
+          {
+            "pack": "Pack Essential",
+            "name": "El Ritual de la Pausa",
+            "stay": "La Casita del Jardín",
+            "price": "329,99 €",
+            "desc": "Desconexión absoluta en una cabaña íntima de adobe: café de filtro que preparas tú mismo (V60) y rituales sensoriales en tu corredor privado."
+          },
+          {
+            "pack": "Pack Premium",
+            "name": "La Alquimia del Origen",
+            "stay": "El Loft del Beneficio",
+            "price": "559,99 €",
+            "desc": "Inmersión sensorial en un loft histórico del antiguo secadero: máquina de espresso, micro-lotes y experiencias guiadas como el Origin Tour y el Sunset Cupping."
+          },
+          {
+            "pack": "Pack Master",
+            "name": "El Legado del Maestro",
+            "stay": "La Casona del Patrón",
+            "price": "849,99 €",
+            "desc": "Maestría total en una suite con chimenea y terraza panorámica: máquina La Marzocco GS3, los cafés más raros y experiencias 100% privadas, incluido tostar tu propio lote."
+          }
+        ],
+        "checkoutHeading": "El checkout",
+        "checkoutIntro": "La reserva se resuelve en cuatro pasos, sin obligar al usuario a registrarse y con migas de pan presentes en todo momento para que siempre sepa dónde está y pueda volver atrás. El objetivo: el menor número de fricciones entre el deseo y la reserva.",
+        "checkoutStepsNavAria": "Pasos del checkout",
+        "checkoutSteps": [
+          {
+            "number": "01",
+            "crumb": "Pack y fechas",
+            "title": "Pack y fechas",
+            "body": "El usuario ve el pack seleccionado y puede cambiarlo, elegir las fechas de entrada y salida y el número de huéspedes."
+          },
+          {
+            "number": "02",
+            "crumb": "Extras",
+            "title": "Extras",
+            "body": "Añade servicios y experiencias adicionales para personalizar la estancia antes de pasar al pago."
+          },
+          {
+            "number": "03",
+            "crumb": "Pago",
+            "title": "Pago",
+            "body": "Introduce los datos de pago para formalizar la reserva, con el resumen del pedido siempre a la vista."
+          },
+          {
+            "number": "04",
+            "crumb": "Confirmación",
+            "title": "Thank you page",
+            "body": "Una página de confirmación cierra el flujo y resume la reserva con todos sus detalles."
+          }
+        ]
+      },
+      "responsive": {
+        "label": "Prototipo responsive · móvil, tablet y escritorio",
+        "sectionAria": "Vistas responsive del prototipo",
+        "devices": [
+          { "alt": "Daily Nook Coffee — vista móvil" },
+          { "alt": "Daily Nook Coffee — vista tablet" },
+          { "alt": "Daily Nook Coffee — vista escritorio" }
+        ]
+      },
+      "prototype": {
+        "heading": "Un prototipo<br></br>para vivir el café.",
+        "p1": "El resultado es un prototipo navegable en Figma en sus tres versiones —móvil, tablet y escritorio—, coherente de la home al pago.",
+        "p2": "Más allá de las pantallas, este proyecto me obligó a pensar como diseñador de producto: partir de una investigación real, justificar cada decisión con el mapa de sitio y cuidar que la experiencia —igual que una buena taza de café— se disfrute sin prisa. Es el cierre del Curso Especialista en UX/UI de La Hauss y la pieza con la que mejor explico cómo trabajo."
+      },
+      "figmaCta": "Ver prototipo en Figma"
+    },
+    "alfonso": {
+      "index": "02",
+      "title": "Cuando montar<br></br>tu propio despacho<brSm></brSm> empieza por una<br></br> pantalla en blanco.",
+      "meta": [
+        { "label": "Cliente", "value": "Alfonso López Abogado" },
+        { "label": "Año", "value": "2025" },
+        { "label": "Rol", "value": "Diseño UI/UX · Desarrollo Web" },
+        { "label": "Tecnología", "value": "WordPress" }
+      ],
+      "mainMockupAlt": "Alfonso López Abogado — vista general del proyecto",
+      "challenge": {
+        "heading": "El Punto<br></br>de Partida",
+        "quote": "El problema no era su reputación como abogado. Había que potenciar su presencia digital.",
+        "body": "Alfonso López llevaba años ejerciendo la abogacía, pero siempre bajo el paraguas de otro despacho. Sin logo, sin identidad visual, sin web y sin presencia online más allá de los clientes con los que había trabajado antes. Su red de contactos existía, pero en el mundo digital era invisible. Y en la Costa del Sol, uno de los mercados legales más saturados de España, eso es un problema serio."
+      },
+      "strategy": {
+        "heading": "La Estrategia:<brSm></brSm> Ganar por Diseño",
+        "intro": "Las webs de la mayoría de abogados en la Costa del Sol comparten un patrón: desactualizadas, cargadas de texto y con un diseño que no ha cambiado en diez años. Eso, en lugar de ser un problema, era nuestra mayor oportunidad. La estrategia se apoyó en tres decisiones clave:",
+        "items": [
+          {
+            "number": "01",
+            "title": "Identidad desde cero",
+            "body": "Antes de tocar la web, trabajamos juntos el logo y la paleta de colores corporativos. Necesitaba una imagen que transmitiera seriedad sin resultar fría, y que funcionara igual en una tarjeta de visita que en un banner digital."
+          },
+          {
+            "number": "02",
+            "title": "Diseño minimalista y limpio",
+            "body": "Frente al ruido visual de la competencia, optamos por una web con mucho espacio, tipografía clara y navegación directa. Que el usuario supiera en cinco segundos qué hace Alfonso, en qué puede ayudarle y cómo contactarle."
+          },
+          {
+            "number": "03",
+            "title": "Bases SEO desde el primer día",
+            "body": "En un mercado competitivo, aparecer en Google no es opcional. Estructuré el contenido y el código pensando en posicionamiento desde el inicio, y trabajamos los primeros artículos del blog para empezar a generar autoridad en búsquedas relevantes."
+          }
+        ]
+      },
+      "mockup2": {
+        "sectionAria": "Mockups de escritorio y móvil",
+        "mobileAlt": "Alfonso López Abogado — vista móvil"
+      },
+      "development": {
+        "heading": "El Desarrollo",
+        "p1": "El desarrollo lo hicimos en WordPress, con una arquitectura pensada para que Alfonso pudiera gestionar el contenido de forma autónoma sin depender de mí para cada cambio menor.",
+        "p2": "Implementé CTAs claros en los puntos estratégicos de la web y un formulario de contacto accesible desde cualquier página, porque en un despacho de abogados cada consulta es un cliente potencial.",
+        "p3": "Todo el código se optimizó para velocidad de carga y adaptación a móvil, que es como la mayoría de personas busca un abogado hoy. La web no se lanzó y se olvidó: seguimos trabajando juntos para mejorar el posicionamiento, añadir contenido nuevo y ajustar lo que los datos vayan pidiendo."
+      },
+      "result": {
+        "heading": "Una identidad propia<br></br>en un mercado saturado.",
+        "p1": "Alfonso pasó de no existir en internet a tener una presencia digital coherente, profesional y diferenciada. Tiene su propia imagen de marca, una web que puede enseñar con orgullo a cualquier cliente y una plataforma que trabaja por él las 24 horas.",
+        "p2": "Lo que más me satisface de este proyecto no es el resultado visual, sino el punto de partida: construir algo desde cero junto a alguien que está apostando fuerte por su propio camino tiene un valor distinto. Este tipo de proyectos me exigen entender el negocio del cliente antes de tocar el diseño, y eso es exactamente lo que busco en cada encargo."
+      },
+      "liveCta": "Ver proyecto en vivo"
+    }
+  }
+}
