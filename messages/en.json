@@ -9,7 +9,7 @@
     },
     "pregon": {
       "title": "San Pedro de Alcántara Brotherhood Speech 2026",
-      "description": "Case study: an AI video for the 2026 festival speech of the Brotherhood of San Pedro de Alcántara, in which the speaker talks live with the Marquis of Duero, Saint Peter of Alcántara and his own father. Direction, production and post-production.",
+      "description": "Case study: an AI video for the 2026 speech of the Brotherhood of San Pedro de Alcántara, in which the speaker talks live with the Marquis of Duero, Saint Peter of Alcántara and his own father. Direction, production and post-production.",
       "ogDescription": "One speech, four voices: three AI-created characters who talk live with the speaker, in front of the whole town.",
       "ogImageAlt": "San Pedro de Alcántara Brotherhood Speech 2026 — Case study by Adrián Kervin"
     },
@@ -63,7 +63,7 @@
       {
         "title": "San Pedro de Alcántara Brotherhood Speech 2026",
         "period": "2026",
-        "description": "Direction, production and post-production of an AI piece for the Brotherhood's festival speech.",
+        "description": "Direction, production and post-production of an AI piece for the Brotherhood's 2026 speech.",
         "imageAlt": "San Pedro de Alcántara Brotherhood Speech 2026 — project image"
       },
       {
@@ -180,11 +180,11 @@
     "pregon": {
       "index": "03",
       "title": "One speech,<br></br>four voices.",
-      "intro": "The 2026 festival speech of the Brotherhood of San Pedro de Alcántara. An AI-created audiovisual piece in which the speaker talks live with the Marquis of Duero, Saint Peter of Alcántara and his own father, in front of the whole town.",
+      "intro": "The 2026 speech (pregón) of the Brotherhood of San Pedro de Alcántara. An AI-created audiovisual piece in which the speaker talks live with the Marquis of Duero, Saint Peter of Alcántara and his own father, in front of the whole town.",
       "meta": [
         {
           "label": "Context",
-          "value": "Festival speech of the Brotherhood of San Pedro de Alcántara (Marbella)"
+          "value": "Speech of the Brotherhood of San Pedro de Alcántara (Marbella)"
         },
         { "label": "Year", "value": "2026" },
         { "label": "Role", "value": "Direction, production and post-production · AI video" },
@@ -272,7 +272,7 @@
             "name": "The Marquis of Duero",
             "role": "the founder",
             "who": [
-              "Manuel Gutiérrez de la Concha e Irigoyen (1808-1874), first Marquis of Duero, is the person San Pedro Alcántara owes its existence to as we know it. A soldier and politician, in 1860 he founded an agricultural colony built around growing sugar cane. It became the most important agricultural colony in Spain in the second half of the 19th century, and the largest ever created by private initiative.",
+              "Manuel Gutiérrez de la Concha e Irigoyen (1808-1874), first Marquis of Duero, is the person San Pedro Alcántara owes its existence to as we know it. A soldier and politician, in 1860 he founded an agricultural colony built around growing sugar cane. It became the most important agricultural colony in Spain in the second half of the 19th century, and the largest created by private initiative.",
               "He named it in honour of his favourite saint and of his mother, Petra de Alcántara Irigoyen. Under his drive came the sugar mill, which saved carrying the cane all the way to the mills in Málaga, and the church that became the town's parish. He died in 1874, mortally wounded at the battle of Monte Muru, during the Third Carlist War. Today the town's main avenue bears his name."
             ],
             "approach": [
