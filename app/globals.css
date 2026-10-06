@@ -133,3 +133,13 @@ body::after {
     cursor: auto !important;
   }
 }
+
+/* En pantalla completa el cursor personalizado queda fuera del elemento: se usa el del sistema */
+:fullscreen,
+:fullscreen * {
+  cursor: auto;
+}
+
+:fullscreen :is(a, button, input, [role="button"]) {
+  cursor: pointer;
+}

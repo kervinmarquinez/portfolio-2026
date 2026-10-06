@@ -7,6 +7,12 @@
       "ogImageAlt": "Adrián Kervin — Desarrollo Web & Estrategia UX",
       "twitterDescription": "Portfolio de Adrián Kervin. Especialista en Desarrollo Web y Estrategia UX."
     },
+    "pregon": {
+      "title": "Pregón Hermandad San Pedro de Alcántara 2026",
+      "description": "Caso de estudio: vídeo con IA para el Pregón de la Hermandad de San Pedro de Alcántara 2026, en el que el pregonero conversa en directo con el Marqués del Duero, San Pedro de Alcántara y su propio padre. Dirección, producción y postproducción.",
+      "ogDescription": "Un pregón a cuatro voces: tres personajes creados con IA que conversan en directo con el pregonero, delante de todo el pueblo.",
+      "ogImageAlt": "Pregón Hermandad San Pedro de Alcántara 2026 — Caso de estudio por Adrián Kervin"
+    },
     "dailynook": {
       "title": "Daily Nook Coffee",
       "description": "Caso de estudio UX/UI: Daily Nook Coffee — The Nook Grounds, un resort para amantes del café de especialidad ambientado en haciendas colombianas entre cafetales. Proyecto final del Curso Especialista UX/UI en La Hauss.",
@@ -54,6 +60,12 @@
     "viewProject": "Ver proyecto",
     "viewProjectAria": "Ver proyecto: {title}",
     "items": [
+      {
+        "title": "Pregón Hermandad San Pedro de Alcántara 2026",
+        "period": "2026",
+        "description": "Dirección, producción y postproducción de una pieza con IA para el pregón de la Hermandad.",
+        "imageAlt": "Pregón Hermandad San Pedro de Alcántara 2026 — imagen del proyecto"
+      },
       {
         "title": "Daily Nook Coffee",
         "period": "2026",
@@ -164,6 +176,286 @@
       "enlargeImageAria": "Ampliar imagen: {name}",
       "enlargedImageAria": "Imagen ampliada",
       "closeEnlargedAria": "Cerrar imagen ampliada"
+    },
+    "pregon": {
+      "index": "03",
+      "title": "Un pregón<br></br>a cuatro voces.",
+      "intro": "Pregón de la Hermandad de San Pedro de Alcántara 2026. Una pieza audiovisual creada con IA en la que el pregonero conversa en directo con el Marqués del Duero, San Pedro de Alcántara y su propio padre, delante de todo el pueblo.",
+      "meta": [
+        {
+          "label": "Contexto",
+          "value": "Pregón de la Hermandad de San Pedro de Alcántara (Marbella)"
+        },
+        { "label": "Año", "value": "2026" },
+        { "label": "Rol", "value": "Dirección, producción y postproducción · Vídeo con IA" },
+        {
+          "label": "Herramientas",
+          "value": "Magnific · Seedream 5.0 Pro · MiniMax H3 · Creatify Aurora · ElevenLabs · Claude · CapCut"
+        }
+      ],
+      "placeholderLabel": "Pendiente",
+      "player": {
+        "sectionAria": "Vídeo interactivo del pregón",
+        "intro": "Prueba la pieza como la vivió el pregonero: en cada pausa la escena espera mientras él habla, hasta que decides continuar.",
+        "start": "Empezar",
+        "soundHint": "Con sonido · ~9 min",
+        "waitingLabel": "Habla el pregonero",
+        "next": "Continuar",
+        "nextShortcut": "o pulsa →",
+        "pause": "Pausar",
+        "play": "Reproducir",
+        "mute": "Silenciar",
+        "unmute": "Activar sonido",
+        "captionsOn": "Activar subtítulos",
+        "captionsOff": "Desactivar subtítulos",
+        "fullscreen": "Pantalla completa",
+        "exitFullscreen": "Salir de pantalla completa",
+        "progress": "Progreso del vídeo",
+        "progressValue": "{current} de {total}",
+        "endedHeading": "Fin del pregón",
+        "restart": "Volver a empezar",
+        "unavailable": "Vídeo interactivo · próximamente",
+        "videoLabel": "Vídeo del pregón con los tres personajes",
+        "chapters": [
+          { "character": "El Marqués del Duero" },
+          { "character": "San Pedro de Alcántara" },
+          { "character": "El padre" }
+        ],
+        "loops": [
+          { "text": "Mi General, vos que cuadriculasteis este delta con acequias, carreteras y caña de azúcar, vos que soñasteis con la Granja-Escuela para redimir la tierra a través de la ciencia... ¿Qué sentís al ver que los campos de cultivo son hoy plazas, paseos marítimos y el hogar de miles de personas de todo el mundo? ¿Os duele la pérdida de la utopía agrícola, u os enorgullece ver en qué se ha convertido vuestra semilla?" },
+          { "text": "Mi General, permitidme retroceder un instante. Antes de preguntaros por lo que veis hoy, quisiera preguntaros por aquello que soñasteis entonces. ¿Por qué San Pedro? ¿Qué os llevó a levantar aquí una colonia agrícola? ¿Qué imaginabais que sería este lugar cuando decidisteis poner en marcha vuestro proyecto?" },
+          { "text": "Aquella tarde de junio en Monte Muro, una bala os arrebató la vida y San Pedro perdió a su tutor. Cuando caísteis en el campo de batalla... ¿pensasteis en vuestra colonia?" },
+          { "text": "Y sin embargo, mi General, las batallas de un pueblo nunca terminan del todo." },
+          { "text": "Sí, mi General. Todavía hoy hay una opción que sigue en pie, sin uniforme ni espada, que batalla en primera línea cada día, por este pueblo que vos soñasteis." },
+          { "text": "Fray Pedro... vos que buscasteis el rincón más escondido del mundo para descalzar vuestros pies, vos que huíais de los honores... ¿Qué os dice el corazón al ver que vuestro nombre floreció aquí, junto al mar?" },
+          { "text": "Fray Pedro, yo me fui de San Pedro siendo un niño. Me marché con seis años y durante mucho tiempo pensé que había perdido mi pueblo. Tardé muchos años en comprender que quizás uno nunca pierde el lugar al que pertenece. Decidme, ¿por qué creéis que algunos hombres podemos marcharnos de un lugar y, sin embargo, pasar toda una vida intentando volver a él?" },
+          { "text": "Fray Pedro, dicen que Francisco de Asís tenía un don. Sabía mirar a su gente y ver lo que de verdad necesitaba. Y se lo devolvía hecho Evangelio, sin adornos. Vos aprendisteis de él, en un tiempo de conventos ricos y de una fe cargada de piedra y oro. ¿Qué le hacía falta a aquella gente, que vos quisisteis darle andando descalzo? Y hoy, con tanto ruido, con tanta prisa... ¿qué creéis que le hace falta a la nuestra?" },
+          { "text": "¿Qué consejo le dais a esta Hermandad y a los sampedreños del siglo XXI?" }
+        ],
+        "notes": [
+          { "text": "Y lo hubo, mi General." },
+          { "text": "¿Nosotros?" },
+          { "text": "¿Con los míos?" }
+        ]
+      },
+      "assignment": {
+        "heading": "El Encargo",
+        "quote": "El reto: que tres personajes ligados al pueblo pudieran conversar con el pregonero, en directo y delante de todos.",
+        "p1": "El pregonero de la Hermandad de San Pedro de Alcántara en 2026 me contactó directamente con una idea clara. Quería un recorrido por el pueblo con tres paradas. En cada una aparecería un personaje al que él preguntaría en directo desde el escenario, y el personaje le respondería en pantalla.",
+        "p2": "Había un requisito innegociable: los tres personajes. Dos son figuras históricas ligadas a la identidad del pueblo, el Marqués del Duero y San Pedro de Alcántara. El tercero es el padre del pregonero, que en 2004 iba a dar este mismo pregón y no pudo hacerlo. Esa escena era el corazón del proyecto y marcaba su listón, porque parte del público conocía esa cara y su hijo iba a estar delante."
+      },
+      "live": {
+        "heading": "Diseñar para el directo",
+        "quote": "Un vídeo no puede adivinar cuánto va a tardar alguien en hablar.",
+        "p1": "El problema central no era visual, sino de tiempos. El pregonero iba a hablar en directo, y cada intervención podía durar veinte segundos o dos minutos según la emoción del momento o la reacción del público. Con un vídeo continuo tendría que correr o rellenar silencios.",
+        "p2": "La solución fue dividir la pieza en tres bloques, uno por personaje, y presentarla como una secuencia de diapositivas. Cada vez que habla el pregonero, la escena queda en bucle: el personaje sigue en pantalla, vivo pero en espera, hasta que el pregonero termina y avanza. Así el ritmo lo marca él y no el vídeo.",
+        "p3": "Días antes del pregón quedamos en la iglesia para probar todo el equipo de audio y vídeo en el espacio real. El día del pregón no hubo ninguna incidencia técnica.",
+        "howLabel": "Cómo funciona",
+        "steps": [
+          { "number": "01", "text": "El pregonero pregunta desde el escenario" },
+          { "number": "02", "text": "La escena queda en bucle mientras habla, a su ritmo" },
+          { "number": "03", "text": "Un clic y el personaje responde" }
+        ]
+      },
+      "characters": {
+        "heading": "Los Personajes",
+        "quote": "Tres personajes que, juntos, cuentan la historia del pueblo: quien lo fundó, quien le dio nombre y quien lo vivió.",
+        "p1": "Los tres personajes no se eligieron al azar. El Marqués del Duero fundó el pueblo, San Pedro de Alcántara le dio nombre y el padre del pregonero representa a la gente que lo ha vivido. Hacerlos hablar era hacer hablar al propio pueblo.",
+        "p2": "Con los tres seguí el mismo método. Primero reuní todo el material visual disponible. Después lo traduje a un rostro fotográfico con Seedream 5.0 Pro. Por último fijé ese rostro en un <strong>character sheet</strong> (hoja de personaje con la misma cara desde varios ángulos y con varias expresiones). Funciona como la ficha de casting de un actor: antes de generar un solo plano, el personaje ya está definido. Es la pieza clave, porque las herramientas de vídeo con IA tienden a “olvidar” una cara de un clip a otro y la hoja es la referencia que lo impide.",
+        "whoLabel": "Quién fue",
+        "approachLabel": "Cómo lo planteé",
+        "sheetLabel": "Character sheet",
+        "framesLabel": "Galería de frames",
+        "items": [
+          {
+            "number": "01",
+            "name": "El Marqués del Duero",
+            "role": "el fundador",
+            "who": [
+              "Manuel Gutiérrez de la Concha e Irigoyen (1808-1874), primer Marqués del Duero, es la persona a la que San Pedro Alcántara debe su existencia tal y como lo conocemos. Militar y político, fundó en 1860 una colonia agrícola organizada en torno al cultivo de la caña de azúcar. Llegó a ser la colonia agrícola más importante de España en la segunda mitad del siglo XIX y la mayor creada por iniciativa privada.",
+              "Le dio nombre en honor a su santo predilecto y a su madre, Petra de Alcántara Irigoyen. Bajo su impulso se levantaron el ingenio azucarero, que evitaba tener que llevar la caña hasta los molinos de Málaga, y la iglesia que hizo de parroquia del pueblo. Murió en 1874, herido de muerte en la batalla de Monte Muru, durante la tercera guerra carlista. Hoy la avenida principal del pueblo lleva su nombre."
+            ],
+            "approach": [
+              "Él abre el recorrido, en el pueblo de su época. Partí de distintas ilustraciones del personaje. Cada una lo interpreta a su manera, así que el trabajo consistió en quedarme con los rasgos que se repetían y llevarlos a un rostro fotográfico creíble, el de un militar del siglo XIX. Su voz sale de la biblioteca de ElevenLabs."
+            ],
+            "sheetAlt": "Character sheet del Marqués del Duero: el mismo rostro y uniforme de gala, de perfil, de frente y de espaldas",
+            "frameAlts": [
+              "El Marqués del Duero, de espaldas, camina por una calle de casas encaladas del pueblo en el siglo XIX",
+              "Primer plano del Marqués del Duero ante la iglesia del pueblo, rodeada de palmeras",
+              "Detalle de las botas del Marqués al caminar, con vecinos sentados a la puerta de sus casas",
+              "El Marqués del Duero contempla la iglesia del pueblo entre palmeras"
+            ]
+          },
+          {
+            "number": "02",
+            "name": "San Pedro de Alcántara",
+            "role": "el nombre",
+            "who": [
+              "Nació en Alcántara (Cáceres) en 1499 y murió en Arenas de San Pedro (Ávila) en 1562. Fue fraile franciscano, reformador e impulsor del movimiento descalzo, y figura importante de la espiritualidad española del siglo XVI. Hoy es patrón de Extremadura.",
+              "Su vida estuvo marcada por la austeridad y la penitencia. Fundó El Palancar, cerca de Pedroso de Acim, conocido como el convento más pequeño del mundo. Escribió un breve tratado sobre la oración que se tradujo a todas las lenguas de Europa. Fue además apoyo y director espiritual de Santa Teresa de Jesús, a quien aconsejó en su reforma del Carmelo."
+            ],
+            "approach": [
+              "Del santo no existen fotografías, solo la imagen que han transmitido durante siglos la pintura y la escultura. Por eso su rostro parte de ilustraciones y estatuas, que es como lo conoce el pueblo.",
+              "Lo situé en El Palancar porque ese pequeño convento resume su forma de entender la vida mejor que cualquier explicación. La pluma, que remite a su obra escrita, y la paloma aparecen integradas en la escena con naturalidad, sin subrayarlas. Quien conoce su iconografía las reconoce y quien no, ve una escena coherente.",
+              "Su voz es la de una persona real, elegida por el pregonero y usada con su permiso explícito."
+            ],
+            "sheetAlt": "Character sheet de San Pedro de Alcántara: el fraile descalzo, con hábito y cordón franciscano, desde varios ángulos",
+            "frameAlts": [
+              "San Pedro de Alcántara mira a cámara desde el hueco de un muro de piedra",
+              "San Pedro de Alcántara, de espaldas, en una celda austera con una cruz de madera en la pared",
+              "San Pedro de Alcántara sostiene una pluma y un libro bajo las vigas del convento",
+              "San Pedro de Alcántara escribe con una pluma junto a una paloma blanca"
+            ]
+          },
+          {
+            "number": "03",
+            "name": "El padre",
+            "role": "el pregón pendiente",
+            "who": [
+              "En 2004, el padre del pregonero iba a dar el pregón de la Hermandad de San Pedro de Alcántara. Un problema de salud se lo impidió. Veintidós años después, su hijo, ya como pregonero, quiso rendirle homenaje terminando aquel pregón con él. Por eso su aparición no es un efecto, sino el cierre de algo que quedó pendiente."
+            ],
+            "approach": [
+              "Era el personaje más delicado y el que marcaba el listón de todo el proyecto. En los otros dos casos, la referencia era una interpretación artística. Aquí era una persona real, cuya cara iban a reconocer su familia y sus vecinos.",
+              "El rostro se reconstruyó combinando fotografías antiguas con fotogramas de vídeos familiares. Los vídeos aportaban lo que una foto no tiene: el gesto y la cara en movimiento. Su escena transcurre en la iglesia actual del pueblo y en su plaza.",
+              "La voz fue el mayor reto. Intentamos reconstruirla a partir de fragmentos de audio y vídeo, pero el resultado no estaba a la altura. Lo hablé con el pregonero y decidimos que su padre hablaría con la voz de su hijo. Con un parecido que no admitía errores, preferimos una voz con sentido a una imitación imperfecta. Esa decisión acabó dando a la escena un significado propio: padre e hijo compartiendo, por fin, el mismo pregón."
+            ],
+            "sheetAlt": "Character sheet del padre del pregonero: traje oscuro y gafas, de frente, de perfil y de espaldas",
+            "frameAlts": [
+              "El padre del pregonero en el atril de la iglesia, ante el retablo iluminado con velas",
+              "Primer plano de los ojos del padre del pregonero tras sus gafas",
+              "El padre del pregonero apoya las manos sobre un libro abierto en el atril",
+              "El padre del pregonero, de espaldas, mira hacia el altar de la iglesia"
+            ]
+          }
+        ]
+      },
+      "settings": {
+        "heading": "Los Escenarios",
+        "quote": "El concepto era un recorrido: los lugares tenían que ser tan protagonistas como los personajes.",
+        "intro": "Generé cada escenario sin personajes y lo trabajé como un decorado, con la época, la luz y el detalle resueltos antes de poner a nadie delante. Así cada lugar se sostiene por sí mismo y el personaje solo tiene que habitarlo.",
+        "galleryLabel": "Galería de escenarios",
+        "items": [
+          {
+            "number": "01",
+            "name": "El pueblo en el pasado",
+            "body": "Es la escena del Marqués del Duero. Reconstruí distintos rincones de San Pedro Alcántara a partir de fotografías antiguas de diferentes épocas. Como cada foto muestra el pueblo en un momento distinto, había que unificar luz y estilo para que todos los lugares parecieran parte del mismo pueblo.",
+            "alts": [
+              "La iglesia del pueblo entre palmeras, en el San Pedro Alcántara del siglo XIX",
+              "Campos de cultivo con el caserío y la iglesia del pueblo al fondo",
+              "Calle de casas encaladas con vecinos a la puerta y el campanario al fondo"
+            ]
+          },
+          {
+            "number": "02",
+            "name": "El convento de El Palancar",
+            "body": "Es la escena de San Pedro de Alcántara, en el convento que fundó en Cáceres. Un espacio mínimo y austero en el que el decorado cuenta tanto como el personaje.",
+            "alts": [
+              "Interior del convento de El Palancar: vigas de madera, muros de piedra y una cruz junto al ventanuco",
+              "Fachada de piedra del convento de El Palancar con su portada",
+              "Muros y tejado del convento de El Palancar entre árboles"
+            ]
+          },
+          {
+            "number": "03",
+            "name": "La iglesia y su plaza",
+            "body": "Es la escena del padre, recreada a partir de fotografías actuales de la iglesia y de la plaza. El recorrido termina en el presente, en el mismo lugar donde estaba sentado el público mientras veía la pieza.",
+            "alts": [
+              "Monumento con el nombre de San Pedro Alcántara en el pueblo actual",
+              "Fachada blanca y amarilla de la iglesia con el rótulo de la Plaza de la Iglesia",
+              "Velas encendidas ante el altar de la iglesia, con el padre del pregonero en el atril al fondo"
+            ]
+          }
+        ]
+      },
+      "process": {
+        "heading": "El Proceso",
+        "quote": "Un proyecto de principio a fin, con una sola persona al mando.",
+        "steps": [
+          {
+            "number": "01",
+            "title": "Investigación y documentación",
+            "body": "Todo empezó por reunir material: ilustraciones y estatuas para los personajes históricos, fotografías antiguas del pueblo, imágenes actuales de la iglesia y del convento, y el archivo familiar del pregonero. Sin esta fase no hay parecido posible, ni histórico ni familiar."
+          },
+          {
+            "number": "02",
+            "title": "Estructura",
+            "body": "Organicé la pieza en tres bloques, uno por personaje: el Marqués, San Pedro y el padre. Las preguntas de cada uno quedaron cerradas con el pregonero antes de empezar a producir."
+          },
+          {
+            "number": "03",
+            "title": "Personajes",
+            "body": "Generé cada rostro con Seedream 5.0 Pro y lo fijé en su character sheet antes de pasar a vídeo."
+          },
+          {
+            "number": "04",
+            "title": "Escenarios",
+            "body": "Generé cada lugar por separado, como un decorado."
+          },
+          {
+            "number": "05",
+            "title": "Composición",
+            "body": "Integré a cada personaje en su escenario, usando su character sheet como referencia para mantener la cara."
+          },
+          {
+            "number": "06",
+            "title": "Animación",
+            "body": "Animé las imágenes con MiniMax H3. Escribí cada prompt en lenguaje cinematográfico: tipo de plano, lente, luz y movimiento de cámara, igual que se le explicaría a un director de fotografía."
+          },
+          {
+            "number": "07",
+            "title": "Voces",
+            "body": "Creé las tres voces en ElevenLabs: una de su biblioteca para el Marqués, la de una persona real con su permiso para San Pedro y la del propio pregonero para su padre."
+          },
+          {
+            "number": "08",
+            "title": "Lip-sync",
+            "body": "Sincronicé la boca de cada personaje con su voz usando Creatify Aurora."
+          },
+          {
+            "number": "09",
+            "title": "Montaje y bucles",
+            "body": "Monté los tres bloques en CapCut y preparé las escenas en bucle que mantienen al personaje en espera mientras el pregonero habla. La pieza final se presentó como una secuencia de diapositivas, para que él avanzara con un clic."
+          },
+          {
+            "number": "10",
+            "title": "Prueba técnica",
+            "body": "Días antes del pregón quedamos en la iglesia para probar el audio y el vídeo en el espacio real."
+          }
+        ],
+        "note": "Usé Claude como apoyo cinematográfico, junto con skills instaladas para traducir cada escena a prompts con lenguaje de dirección. La idea, la producción y las decisiones creativas fueron mías, con aportaciones del pregonero."
+      },
+      "tools": {
+        "heading": "Herramientas",
+        "quote": "Las herramientas cambian cada pocos meses; lo que se queda es el método.",
+        "items": [
+          {
+            "name": "Magnific",
+            "desc": "La plataforma de trabajo. Desde ella generé las imágenes y los vídeos del proyecto."
+          },
+          {
+            "name": "Seedream 5.0 Pro",
+            "desc": "Generación de imagen: rostros, character sheets y escenarios."
+          },
+          { "name": "MiniMax H3", "desc": "Animación: convertir cada imagen en un plano con movimiento." },
+          { "name": "Creatify Aurora", "desc": "Lip-sync: sincronizar la boca de cada personaje con su voz." },
+          { "name": "ElevenLabs", "desc": "Voces de los tres personajes." },
+          {
+            "name": "Claude",
+            "desc": "Apoyo cinematográfico para traducir cada escena a prompts con lenguaje de dirección."
+          },
+          { "name": "CapCut", "desc": "Montaje, escenas en bucle y edición final." }
+        ]
+      },
+      "onStage": {
+        "heading": "En directo",
+        "videoTitle": "Grabación del pregón · RTV Marbella",
+        "credit": "Grabación del pregón: RTV Marbella · Vídeo publicado en YouTube por OSP",
+        "p1": "El 26 de septiembre la pieza se proyectó durante el pregón. El público se sorprendió con la puesta en escena, y la aparición del padre en pantalla emocionó al pregonero y a su familia.",
+        "closingHeading": "De la idea a la pantalla,<br></br>de principio a fin.",
+        "closingP1": "Este proyecto me enseñó a llevar una pieza audiovisual completa de forma independiente y a construir un proceso propio, desde la investigación hasta la creación de personajes y escenarios, la producción y la edición.",
+        "closingP2": "También me confirmó algo que traigo del UX: se diseña para quien lo va a usar. Aquí era un pregonero frente a su pueblo, y lo que necesitaba no era un vídeo perfecto, sino poder controlar el tiempo."
+      },
+      "sources": "Los datos históricos de los bloques del Marqués y del santo están contrastados con el Diccionario Biográfico de la Real Academia de la Historia y con una tesis de la Universidad de Málaga sobre la colonia agrícola."
     },
     "dailynook": {
       "index": "01",

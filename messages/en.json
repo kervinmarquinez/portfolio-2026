@@ -7,6 +7,12 @@
       "ogImageAlt": "Adrián Kervin — Web Development & UX Strategy",
       "twitterDescription": "Portfolio of Adrián Kervin. Specialist in Web Development and UX Strategy."
     },
+    "pregon": {
+      "title": "San Pedro de Alcántara Brotherhood Speech 2026",
+      "description": "Case study: an AI video for the 2026 festival speech of the Brotherhood of San Pedro de Alcántara, in which the speaker talks live with the Marquis of Duero, Saint Peter of Alcántara and his own father. Direction, production and post-production.",
+      "ogDescription": "One speech, four voices: three AI-created characters who talk live with the speaker, in front of the whole town.",
+      "ogImageAlt": "San Pedro de Alcántara Brotherhood Speech 2026 — Case study by Adrián Kervin"
+    },
     "dailynook": {
       "title": "Daily Nook Coffee",
       "description": "UX/UI case study: Daily Nook Coffee — The Nook Grounds, a resort for specialty coffee lovers set among Colombian coffee estates. Final project of the UX/UI Specialist Course at La Hauss.",
@@ -54,6 +60,12 @@
     "viewProject": "View project",
     "viewProjectAria": "View project: {title}",
     "items": [
+      {
+        "title": "San Pedro de Alcántara Brotherhood Speech 2026",
+        "period": "2026",
+        "description": "Direction, production and post-production of an AI piece for the Brotherhood's festival speech.",
+        "imageAlt": "San Pedro de Alcántara Brotherhood Speech 2026 — project image"
+      },
       {
         "title": "Daily Nook Coffee",
         "period": "2026",
@@ -164,6 +176,286 @@
       "enlargeImageAria": "Enlarge image: {name}",
       "enlargedImageAria": "Enlarged image",
       "closeEnlargedAria": "Close enlarged image"
+    },
+    "pregon": {
+      "index": "03",
+      "title": "One speech,<br></br>four voices.",
+      "intro": "The 2026 festival speech of the Brotherhood of San Pedro de Alcántara. An AI-created audiovisual piece in which the speaker talks live with the Marquis of Duero, Saint Peter of Alcántara and his own father, in front of the whole town.",
+      "meta": [
+        {
+          "label": "Context",
+          "value": "Festival speech of the Brotherhood of San Pedro de Alcántara (Marbella)"
+        },
+        { "label": "Year", "value": "2026" },
+        { "label": "Role", "value": "Direction, production and post-production · AI video" },
+        {
+          "label": "Tools",
+          "value": "Magnific · Seedream 5.0 Pro · MiniMax H3 · Creatify Aurora · ElevenLabs · Claude · CapCut"
+        }
+      ],
+      "placeholderLabel": "Pending",
+      "player": {
+        "sectionAria": "Interactive video of the speech",
+        "intro": "Experience the piece as the speaker did: at each pause the scene waits while he speaks, until you decide to continue.",
+        "start": "Start",
+        "soundHint": "With sound · ~9 min",
+        "waitingLabel": "The speaker",
+        "next": "Continue",
+        "nextShortcut": "or press →",
+        "pause": "Pause",
+        "play": "Play",
+        "mute": "Mute",
+        "unmute": "Unmute",
+        "captionsOn": "Turn on subtitles",
+        "captionsOff": "Turn off subtitles",
+        "fullscreen": "Full screen",
+        "exitFullscreen": "Exit full screen",
+        "progress": "Video progress",
+        "progressValue": "{current} of {total}",
+        "endedHeading": "End of the speech",
+        "restart": "Start over",
+        "unavailable": "Interactive video · coming soon",
+        "videoLabel": "Video of the speech with the three characters",
+        "chapters": [
+          { "character": "The Marquis of Duero" },
+          { "character": "Saint Peter of Alcántara" },
+          { "character": "The father" }
+        ],
+        "loops": [
+          { "text": "My General, you who laid out this delta with irrigation channels, roads and sugar cane, you who dreamed of the Farm School to redeem the land through science... What do you feel, seeing that the fields are today squares, seafront promenades and the home of thousands of people from all over the world? Does the loss of the agricultural utopia pain you, or are you proud to see what your seed has become?" },
+          { "text": "My General, allow me to go back for a moment. Before asking you about what you see today, I would like to ask you about what you dreamed of back then. Why San Pedro? What led you to build an agricultural colony here? What did you imagine this place would become when you decided to set your project in motion?" },
+          { "text": "That June afternoon at Monte Muro, a bullet took your life and San Pedro lost its guardian. When you fell on the battlefield... did you think of your colony?" },
+          { "text": "And yet, my General, a town's battles never truly end." },
+          { "text": "Yes, my General. Even today there is one option still standing, without uniform or sword, fighting on the front line every day for this town you dreamed of." },
+          { "text": "Friar Peter... you who sought the most hidden corner of the world to go barefoot, you who fled from honours... What does your heart tell you, seeing that your name blossomed here, by the sea?" },
+          { "text": "Friar Peter, I left San Pedro as a child. I went away when I was six, and for a long time I thought I had lost my town. It took me many years to understand that perhaps one never loses the place one belongs to. Tell me, why do you think some of us can leave a place and yet spend a whole lifetime trying to return to it?" },
+          { "text": "Friar Peter, they say Francis of Assisi had a gift. He knew how to look at his people and see what they truly needed. And he gave it back to them as the Gospel, without adornment. You learned from him, in a time of wealthy convents and a faith weighed down with stone and gold. What did those people lack, that you chose to give them by walking barefoot? And today, with so much noise, so much haste... what do you think ours lacks?" },
+          { "text": "What advice would you give this Brotherhood and the people of San Pedro in the 21st century?" }
+        ],
+        "notes": [
+          { "text": "And so there was, my General." },
+          { "text": "Us?" },
+          { "text": "With my own people?" }
+        ]
+      },
+      "assignment": {
+        "heading": "The Brief",
+        "quote": "The challenge: letting three characters tied to the town talk with the speaker, live and in front of everyone.",
+        "p1": "The Brotherhood of San Pedro de Alcántara's 2026 speaker contacted me directly with a clear idea. He wanted a journey through the town with three stops. At each one a character would appear, he would ask them questions live from the stage, and the character would answer him on screen.",
+        "p2": "There was one non-negotiable requirement: the three characters. Two are historical figures tied to the town's identity, the Marquis of Duero and Saint Peter of Alcántara. The third is the speaker's father, who was meant to give this very speech in 2004 and couldn't. That scene was the heart of the project and set its bar, because part of the audience knew that face and his son would be standing right there."
+      },
+      "live": {
+        "heading": "Designing for a live event",
+        "quote": "A video can't guess how long someone will take to speak.",
+        "p1": "The core problem wasn't visual, it was timing. The speaker would be talking live, and each turn could last twenty seconds or two minutes depending on the emotion of the moment or the audience's reaction. With a continuous video he would have had to rush or fill silences.",
+        "p2": "The solution was to split the piece into three blocks, one per character, and present it as a sequence of slides. Every time the speaker talks, the scene loops: the character stays on screen, alive but waiting, until the speaker finishes and moves on. That way he sets the pace, not the video.",
+        "p3": "A few days before the speech we met at the church to test all the audio and video equipment in the real space. On the day, there wasn't a single technical issue.",
+        "howLabel": "How it works",
+        "steps": [
+          { "number": "01", "text": "The speaker asks from the stage" },
+          { "number": "02", "text": "The scene loops while he speaks, at his own pace" },
+          { "number": "03", "text": "One click and the character answers" }
+        ]
+      },
+      "characters": {
+        "heading": "The Characters",
+        "quote": "Three characters who, together, tell the town's story: the one who founded it, the one who named it and the one who lived it.",
+        "p1": "The three characters weren't chosen at random. The Marquis of Duero founded the town, Saint Peter of Alcántara gave it its name and the speaker's father stands for the people who have lived it. Making them speak was making the town itself speak.",
+        "p2": "I followed the same method with all three. First I gathered all the available visual material. Then I translated it into a photographic face with Seedream 5.0 Pro. Finally I locked that face into a <strong>character sheet</strong> (the same face from several angles and with several expressions). It works like an actor's casting card: before generating a single shot, the character is already defined. It's the key piece, because AI video tools tend to “forget” a face from one clip to the next, and the sheet is the reference that prevents it.",
+        "whoLabel": "Who he was",
+        "approachLabel": "My approach",
+        "sheetLabel": "Character sheet",
+        "framesLabel": "Frame gallery",
+        "items": [
+          {
+            "number": "01",
+            "name": "The Marquis of Duero",
+            "role": "the founder",
+            "who": [
+              "Manuel Gutiérrez de la Concha e Irigoyen (1808-1874), first Marquis of Duero, is the person San Pedro Alcántara owes its existence to as we know it. A soldier and politician, in 1860 he founded an agricultural colony built around growing sugar cane. It became the most important agricultural colony in Spain in the second half of the 19th century, and the largest ever created by private initiative.",
+              "He named it in honour of his favourite saint and of his mother, Petra de Alcántara Irigoyen. Under his drive came the sugar mill, which saved carrying the cane all the way to the mills in Málaga, and the church that became the town's parish. He died in 1874, mortally wounded at the battle of Monte Muru, during the Third Carlist War. Today the town's main avenue bears his name."
+            ],
+            "approach": [
+              "He opens the journey, in the town of his time. I started from several illustrations of him. Each one interprets him in its own way, so the work was to keep the features that repeated and turn them into a believable photographic face, that of a 19th-century soldier. His voice comes from the ElevenLabs library."
+            ],
+            "sheetAlt": "Character sheet of the Marquis of Duero: the same face and dress uniform, in profile, from the front and from behind",
+            "frameAlts": [
+              "The Marquis of Duero, from behind, walks down a street of whitewashed houses in the 19th-century town",
+              "Close-up of the Marquis of Duero in front of the town church, surrounded by palm trees",
+              "Detail of the Marquis's boots as he walks, with neighbours sitting at their doorsteps",
+              "The Marquis of Duero gazes at the town church among palm trees"
+            ]
+          },
+          {
+            "number": "02",
+            "name": "Saint Peter of Alcántara",
+            "role": "the name",
+            "who": [
+              "He was born in Alcántara (Cáceres) in 1499 and died in Arenas de San Pedro (Ávila) in 1562. A Franciscan friar, reformer and driving force behind the Discalced movement, he was an important figure of 16th-century Spanish spirituality. Today he is the patron saint of Extremadura.",
+              "His life was marked by austerity and penance. He founded El Palancar, near Pedroso de Acim, known as the smallest convent in the world. He wrote a short treatise on prayer that was translated into every European language. He was also a support and spiritual director to Saint Teresa of Ávila, whom he advised in her reform of the Carmelites."
+            ],
+            "approach": [
+              "There are no photographs of the saint, only the image that painting and sculpture have passed down over the centuries. That's why his face starts from illustrations and statues, which is how the town knows him.",
+              "I placed him in El Palancar because that small convent sums up his way of seeing life better than any explanation. The quill, a nod to his writings, and the dove are woven into the scene naturally, without underlining them. Those who know his iconography recognise them; those who don't see a coherent scene.",
+              "His voice belongs to a real person, chosen by the speaker and used with their explicit permission."
+            ],
+            "sheetAlt": "Character sheet of Saint Peter of Alcántara: the barefoot friar, in habit and Franciscan cord, from several angles",
+            "frameAlts": [
+              "Saint Peter of Alcántara looks at the camera through an opening in a stone wall",
+              "Saint Peter of Alcántara, from behind, in a bare cell with a wooden cross on the wall",
+              "Saint Peter of Alcántara holds a quill and a book under the convent's beams",
+              "Saint Peter of Alcántara writes with a quill beside a white dove"
+            ]
+          },
+          {
+            "number": "03",
+            "name": "The father",
+            "role": "the unfinished speech",
+            "who": [
+              "In 2004, the speaker's father was due to give the Brotherhood of San Pedro de Alcántara's speech. A health problem prevented him. Twenty-two years later, his son, now the speaker himself, wanted to pay tribute to him by finishing that speech together. That's why his appearance isn't an effect, but the closing of something left unfinished."
+            ],
+            "approach": [
+              "He was the most delicate character and the one that set the bar for the whole project. In the other two cases, the reference was an artistic interpretation. Here it was a real person, whose face his family and neighbours would recognise.",
+              "The face was rebuilt by combining old photographs with frames from family videos. The videos brought what a photo lacks: gesture, and the face in motion. His scene takes place in the town's present-day church and its square.",
+              "The voice was the biggest challenge. We tried to rebuild it from fragments of audio and video, but the result wasn't good enough. I talked it over with the speaker and we decided his father would speak with his son's voice. With a likeness that left no room for error, we preferred a meaningful voice to an imperfect imitation. That decision ended up giving the scene a meaning of its own: father and son sharing, at last, the same speech."
+            ],
+            "sheetAlt": "Character sheet of the speaker's father: dark suit and glasses, from the front, in profile and from behind",
+            "frameAlts": [
+              "The speaker's father at the church lectern, in front of the candle-lit altarpiece",
+              "Close-up of the speaker's father's eyes behind his glasses",
+              "The speaker's father rests his hands on an open book on the lectern",
+              "The speaker's father, from behind, looks toward the church altar"
+            ]
+          }
+        ]
+      },
+      "settings": {
+        "heading": "The Settings",
+        "quote": "The concept was a journey: the places had to be as much protagonists as the characters.",
+        "intro": "I generated each setting without characters and treated it like a film set, with period, light and detail resolved before putting anyone in front of it. That way each place stands on its own and the character only has to inhabit it.",
+        "galleryLabel": "Settings gallery",
+        "items": [
+          {
+            "number": "01",
+            "name": "The town in the past",
+            "body": "This is the Marquis of Duero's scene. I rebuilt different corners of San Pedro Alcántara from old photographs taken in different eras. Since each photo shows the town at a different moment, light and style had to be unified so every place would feel part of the same town.",
+            "alts": [
+              "The town church among palm trees, in 19th-century San Pedro Alcántara",
+              "Farmland with the village and its church in the background",
+              "Street of whitewashed houses with neighbours at their doors and the bell tower in the background"
+            ]
+          },
+          {
+            "number": "02",
+            "name": "The El Palancar convent",
+            "body": "This is Saint Peter of Alcántara's scene, in the convent he founded in Cáceres. A tiny, austere space where the set says as much as the character.",
+            "alts": [
+              "Inside the El Palancar convent: wooden beams, stone walls and a cross beside a small window",
+              "The stone façade of the El Palancar convent and its doorway",
+              "Walls and roof of the El Palancar convent among trees"
+            ]
+          },
+          {
+            "number": "03",
+            "name": "The church and its square",
+            "body": "This is the father's scene, recreated from current photographs of the church and the square. The journey ends in the present, in the very place where the audience was sitting while watching the piece.",
+            "alts": [
+              "Monument bearing the name San Pedro Alcántara in today's town",
+              "The church's white and yellow façade with the Plaza de la Iglesia sign",
+              "Lit candles before the church altar, with the speaker's father at the lectern in the background"
+            ]
+          }
+        ]
+      },
+      "process": {
+        "heading": "The Process",
+        "quote": "A project from start to finish, with one person at the helm.",
+        "steps": [
+          {
+            "number": "01",
+            "title": "Research and documentation",
+            "body": "It all started with gathering material: illustrations and statues for the historical characters, old photographs of the town, current images of the church and the convent, and the speaker's family archive. Without this phase no likeness is possible, historical or family."
+          },
+          {
+            "number": "02",
+            "title": "Structure",
+            "body": "I organised the piece into three blocks, one per character: the Marquis, Saint Peter and the father. Each one's questions were settled with the speaker before production began."
+          },
+          {
+            "number": "03",
+            "title": "Characters",
+            "body": "I generated each face with Seedream 5.0 Pro and locked it into its character sheet before moving to video."
+          },
+          {
+            "number": "04",
+            "title": "Settings",
+            "body": "I generated each place separately, like a film set."
+          },
+          {
+            "number": "05",
+            "title": "Composition",
+            "body": "I placed each character into their setting, using their character sheet as a reference to keep the face consistent."
+          },
+          {
+            "number": "06",
+            "title": "Animation",
+            "body": "I animated the images with MiniMax H3. I wrote every prompt in cinematic language: shot type, lens, light and camera movement, just as you would explain it to a director of photography."
+          },
+          {
+            "number": "07",
+            "title": "Voices",
+            "body": "I created the three voices in ElevenLabs: one from its library for the Marquis, a real person's voice, with their permission, for Saint Peter, and the speaker's own voice for his father."
+          },
+          {
+            "number": "08",
+            "title": "Lip-sync",
+            "body": "I synced each character's mouth to their voice using Creatify Aurora."
+          },
+          {
+            "number": "09",
+            "title": "Editing and loops",
+            "body": "I edited the three blocks in CapCut and prepared the looping scenes that keep each character waiting while the speaker talks. The final piece was presented as a sequence of slides, so he could move forward with a click."
+          },
+          {
+            "number": "10",
+            "title": "Technical test",
+            "body": "A few days before the speech we met at the church to test the audio and video in the real space."
+          }
+        ],
+        "note": "I used Claude as cinematic support, together with installed skills to translate each scene into prompts in directing language. The idea, the production and the creative decisions were mine, with input from the speaker."
+      },
+      "tools": {
+        "heading": "Tools",
+        "quote": "Tools change every few months; the method is what stays.",
+        "items": [
+          {
+            "name": "Magnific",
+            "desc": "The working platform. I generated the project's images and videos from it."
+          },
+          {
+            "name": "Seedream 5.0 Pro",
+            "desc": "Image generation: faces, character sheets and settings."
+          },
+          { "name": "MiniMax H3", "desc": "Animation: turning each image into a shot with movement." },
+          { "name": "Creatify Aurora", "desc": "Lip-sync: matching each character's mouth to their voice." },
+          { "name": "ElevenLabs", "desc": "The voices of the three characters." },
+          {
+            "name": "Claude",
+            "desc": "Cinematic support to translate each scene into prompts in directing language."
+          },
+          { "name": "CapCut", "desc": "Editing, looping scenes and final cut." }
+        ]
+      },
+      "onStage": {
+        "heading": "Live",
+        "videoTitle": "Recording of the speech · RTV Marbella",
+        "credit": "Recording of the speech: RTV Marbella · Video published on YouTube by OSP",
+        "p1": "On 26 September the piece was screened during the speech. The audience was surprised by the staging, and the father's appearance on screen moved the speaker and his family.",
+        "closingHeading": "From idea to screen,<br></br>from start to finish.",
+        "closingP1": "This project taught me to take a complete audiovisual piece from start to finish on my own and to build my own process, from research to the creation of characters and settings, production and editing.",
+        "closingP2": "It also confirmed something I bring from UX: you design for whoever is going to use it. Here it was a speaker facing his town, and what he needed wasn't a perfect video, but control over time."
+      },
+      "sources": "The historical facts in the Marquis and saint sections have been checked against the Biographical Dictionary of the Spanish Royal Academy of History and a University of Málaga thesis on the agricultural colony."
     },
     "dailynook": {
       "index": "01",

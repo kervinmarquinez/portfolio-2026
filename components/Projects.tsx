@@ -18,6 +18,11 @@ type Project = {
 // Structural data (slug / image / crop) lives here; copy comes from messages.
 const projectAssets = [
   {
+    slug: "pregonsanpedro",
+    image: "/images/pregon-portada.webp",
+    imagePosition: "object-center",
+  },
+  {
     slug: "dailynookcoffee",
     image: "/images/daily-nook-coffee-proyecto.webp",
     imagePosition: "object-center",
