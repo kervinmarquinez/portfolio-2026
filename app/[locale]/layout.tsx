@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/next";
 import { Cormorant_Garamond, Syne } from "next/font/google";
 import { notFound } from "next/navigation";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
@@ -119,6 +120,7 @@ export default async function LocaleLayout({
           <CustomCursor />
           <SmoothScroll>{children}</SmoothScroll>
         </NextIntlClientProvider>
+        <Analytics />
       </body>
     </html>
   );
